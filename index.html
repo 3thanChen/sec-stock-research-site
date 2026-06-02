@@ -10,29 +10,57 @@
   <header class="hero">
     <nav>
       <div class="logo">SEC Research Hub</div>
-      <a href="https://www.sec.gov/edgar/search/" target="_blank">Official SEC EDGAR</a>
+      <div class="nav-links">
+        <a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener">SEC EDGAR</a>
+        <a href="https://www.sec.gov/files/company_tickers.json" target="_blank" rel="noopener">SEC Company JSON</a>
+      </div>
     </nav>
+
     <section>
-      <h1>Research U.S. public companies faster.</h1>
-      <p>Track SEC filings, news, earnings schedules, and research notes for major U.S. stocks.</p>
+      <p class="eyebrow">Live SEC company list</p>
+      <h1>Research every SEC-listed ticker from one website.</h1>
+      <p class="subhead">This site downloads the full company ticker list directly from the SEC, then links each ticker to its official EDGAR page and submissions JSON.</p>
+
       <div class="search-box">
-        <input id="searchInput" placeholder="Search ticker, e.g. AAPL, NVDA, MSFT" />
-        <button onclick="searchCompany()">Search</button>
+        <input id="searchInput" placeholder="Search ticker or company name, e.g. AAPL, NVIDIA, Microsoft" />
+        <button id="searchButton">Search</button>
+      </div>
+
+      <div class="stats">
+        <div><span id="loadedCount">0</span><small>companies loaded</small></div>
+        <div><span id="visibleCount">0</span><small>currently shown</small></div>
+        <div><span>SEC</span><small>official source</small></div>
       </div>
     </section>
   </header>
 
   <main>
+    <section class="toolbar">
+      <div>
+        <h2>Companies</h2>
+        <p id="statusText">Loading SEC data...</p>
+      </div>
+      <div class="controls">
+        <label for="displayLimit">Show</label>
+        <select id="displayLimit">
+          <option value="100">100</option>
+          <option value="500">500</option>
+          <option value="1000">1,000</option>
+          <option value="all">All</option>
+        </select>
+      </div>
+    </section>
+
     <section class="grid" id="companyGrid"></section>
 
     <section class="panel">
       <h2>Official SEC Data Sources</h2>
-      <p>Use these links as the project’s backbone:</p>
+      <p>These are the sources this project uses.</p>
       <div class="links">
-        <a target="_blank" href="https://www.sec.gov/edgar/search/">SEC EDGAR Search</a>
-        <a target="_blank" href="https://www.sec.gov/search-filings/edgar-application-programming-interfaces">SEC EDGAR APIs</a>
-        <a target="_blank" href="https://data.sec.gov/submissions/CIK0000320193.json">Example: Apple submissions JSON</a>
-        <a target="_blank" href="https://www.sec.gov/files/company_tickers.json">Ticker to CIK JSON</a>
+        <a target="_blank" rel="noopener" href="https://www.sec.gov/files/company_tickers.json">All company tickers JSON</a>
+        <a target="_blank" rel="noopener" href="https://www.sec.gov/edgar/search/">SEC EDGAR Search</a>
+        <a target="_blank" rel="noopener" href="https://www.sec.gov/search-filings/edgar-application-programming-interfaces">SEC API Documentation</a>
+        <a target="_blank" rel="noopener" href="https://data.sec.gov/submissions/CIK0000320193.json">Example Apple filings JSON</a>
       </div>
     </section>
   </main>

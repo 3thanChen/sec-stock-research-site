@@ -1,55 +1,217 @@
-const companies = [
-  { ticker: "AAPL", name: "Apple Inc.", sector: "Technology", cik: "0000320193", bull: "Strong ecosystem, services growth, high customer loyalty.", bear: "Hardware cycles, China exposure, valuation pressure." },
-  { ticker: "MSFT", name: "Microsoft Corporation", sector: "Technology", cik: "0000789019", bull: "Cloud, AI infrastructure, enterprise software dominance.", bear: "Regulatory risk, high expectations, cloud competition." },
-  { ticker: "NVDA", name: "NVIDIA Corporation", sector: "Semiconductors", cik: "0001045810", bull: "AI chips, CUDA ecosystem, data center demand.", bear: "Export controls, cyclicality, margin normalization risk." },
-  { ticker: "TSLA", name: "Tesla, Inc.", sector: "Automotive / Energy", cik: "0001318605", bull: "EV brand, software optionality, energy storage growth.", bear: "Competition, margin compression, execution risk." },
-  { ticker: "AMZN", name: "Amazon.com, Inc.", sector: "Consumer / Cloud", cik: "0001018724", bull: "AWS, logistics scale, advertising growth.", bear: "Retail margins, regulation, cloud competition." },
-  { ticker: "META", name: "Meta Platforms, Inc.", sector: "Communication Services", cik: "0001326801", bull: "Massive ad network, AI ranking, strong cash flow.", bear: "Regulation, metaverse spending, social platform shifts." },
-  { ticker: "GOOGL", name: "Alphabet Inc.", sector: "Communication Services", cik: "0001652044", bull: "Search, YouTube, cloud growth, AI assets.", bear: "AI search disruption, antitrust, ad cyclicality." },
-  { ticker: "JPM", name: "JPMorgan Chase & Co.", sector: "Financials", cik: "0000019617", bull: "Scale, deposit base, strong banking franchise.", bear: "Credit cycle, rates, regulatory capital pressure." },
-  { ticker: "XOM", name: "Exxon Mobil Corporation", sector: "Energy", cik: "0000034088", bull: "Scale, dividends, upstream strength.", bear: "Oil price volatility, energy transition risk." },
-  { ticker: "AMD", name: "Advanced Micro Devices, Inc.", sector: "Semiconductors", cik: "0000002488", bull: "CPU/GPU share gains, AI accelerator opportunity.", bear: "NVIDIA competition, supply chain, valuation risk." }
-];
+const SEC_COMPANY_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json";
+const SEC_SUBMISSIONS_BASE_URL = "https://data.sec.gov/submissions/";
 
-function secSearchUrl(cik) {
-  return `https://www.sec.gov/edgar/browse/?CIK=${cik}&owner=exclude`;
+let allCompanies = [];
+let filteredCompanies = [];
+
+function padCik(cik) {
+  return String(cik).padStart(10, "0");
 }
-function secJsonUrl(cik) {
-  return `https://data.sec.gov/submissions/CIK${cik}.json`;
+
+function secBrowseUrl(cik) {
+  return `https://www.sec.gov/edgar/browse/?CIK=${padCik(cik)}&owner=exclude`;
+}
+
+function secSubmissionsUrl(cik) {
+  return `${SEC_SUBMISSIONS_BASE_URL}CIK${padCik(cik)}.json`;
+}
+
+function normalizeCompany(raw) {
+  return {
+    ticker: String(raw.ticker || "").toUpperCase(),
+    name: raw.title || "Unknown Company",
+    cik: padCik(raw.cik_str)
+  };
+}
+
+async function loadAllCompaniesFromSEC() {
+  const response = await fetch(SEC_COMPANY_TICKERS_URL);
+  if (!response.ok) throw new Error(`SEC request failed: ${response.status}`);
+
+  const data = await response.json();
+  allCompanies = Object.values(data).map(normalizeCompany).sort((a, b) => a.ticker.localeCompare(b.ticker));
+  filteredCompanies = [...allCompanies];
+
+  localStorage.setItem("secCompanies", JSON.stringify(allCompanies));
+  return allCompanies;
+}
+
+function loadCompaniesFromCache() {
+  const cached = localStorage.getItem("secCompanies");
+  if (!cached) return [];
+  try {
+    return JSON.parse(cached);
+  } catch {
+    return [];
+  }
+}
+
+function getDisplayLimit() {
+  const select = document.getElementById("displayLimit");
+  if (!select || select.value === "all") return Infinity;
+  return Number(select.value);
+}
+
+function updateCounts(visible) {
+  const loadedCount = document.getElementById("loadedCount");
+  const visibleCount = document.getElementById("visibleCount");
+  if (loadedCount) loadedCount.textContent = allCompanies.length.toLocaleString();
+  if (visibleCount) visibleCount.textContent = visible.toLocaleString();
 }
 
 function renderCompanies() {
   const grid = document.getElementById("companyGrid");
+  const status = document.getElementById("statusText");
   if (!grid) return;
-  grid.innerHTML = companies.map(c => `
-    <a class="company-card" href="company.html?ticker=${c.ticker}">
-      <div class="ticker">${c.ticker}</div>
-      <h2>${c.name}</h2>
-      <p>${c.sector}</p>
+
+  const limit = getDisplayLimit();
+  const visibleCompanies = filteredCompanies.slice(0, limit);
+
+  grid.innerHTML = visibleCompanies.map(company => `
+    <a class="company-card" href="company.html?ticker=${encodeURIComponent(company.ticker)}">
+      <div class="ticker">${company.ticker}</div>
+      <h2>${company.name}</h2>
+      <p>CIK: ${company.cik}</p>
     </a>
   `).join("");
+
+  updateCounts(visibleCompanies.length);
+
+  if (status) {
+    if (filteredCompanies.length === 0) {
+      status.textContent = "No companies match your search.";
+    } else if (visibleCompanies.length < filteredCompanies.length) {
+      status.textContent = `Showing ${visibleCompanies.length.toLocaleString()} of ${filteredCompanies.length.toLocaleString()} matching companies. Use search or choose All.`;
+    } else {
+      status.textContent = `Showing ${visibleCompanies.length.toLocaleString()} companies from SEC company_tickers.json.`;
+    }
+  }
 }
 
-function searchCompany() {
-  const value = document.getElementById("searchInput").value.trim().toUpperCase();
-  const found = companies.find(c => c.ticker === value || c.name.toUpperCase().includes(value));
-  if (found) window.location.href = `company.html?ticker=${found.ticker}`;
-  else alert("Ticker not in starter database yet. Add it to script.js first.");
+function filterCompanies() {
+  const input = document.getElementById("searchInput");
+  const query = input ? input.value.trim().toUpperCase() : "";
+
+  if (!query) {
+    filteredCompanies = [...allCompanies];
+  } else {
+    filteredCompanies = allCompanies.filter(company =>
+      company.ticker.includes(query) ||
+      company.name.toUpperCase().includes(query) ||
+      company.cik.includes(query)
+    );
+  }
+
+  renderCompanies();
 }
 
-function renderCompanyPage() {
+async function initIndexPage() {
+  const grid = document.getElementById("companyGrid");
+  if (!grid) return;
+
+  const status = document.getElementById("statusText");
+
+  try {
+    allCompanies = await loadAllCompaniesFromSEC();
+    filteredCompanies = [...allCompanies];
+    if (status) status.textContent = "Loaded live SEC company list.";
+  } catch (error) {
+    const cached = loadCompaniesFromCache();
+    if (cached.length > 0) {
+      allCompanies = cached;
+      filteredCompanies = [...allCompanies];
+      if (status) status.textContent = "SEC fetch failed, so the site is using the last saved browser cache.";
+    } else {
+      if (status) status.textContent = "Could not load SEC data. This can happen if the browser blocks the SEC request. Try again later or use a small backend/proxy.";
+      grid.innerHTML = `<div class="error-card">SEC data failed to load. Open the SEC JSON link above to confirm the source is reachable.</div>`;
+      return;
+    }
+  }
+
+  renderCompanies();
+
+  const input = document.getElementById("searchInput");
+  const button = document.getElementById("searchButton");
+  const limit = document.getElementById("displayLimit");
+
+  if (input) input.addEventListener("input", filterCompanies);
+  if (button) button.addEventListener("click", filterCompanies);
+  if (limit) limit.addEventListener("change", renderCompanies);
+}
+
+async function findCompanyByTicker(ticker) {
+  let companies = loadCompaniesFromCache();
+
+  if (companies.length === 0) {
+    companies = await loadAllCompaniesFromSEC();
+  }
+
+  return companies.find(company => company.ticker === ticker.toUpperCase());
+}
+
+function filingDocumentUrl(cik, accessionNumber, primaryDocument) {
+  const accessionNoDashes = accessionNumber.replaceAll("-", "");
+  return `https://www.sec.gov/Archives/edgar/data/${Number(cik)}/${accessionNoDashes}/${primaryDocument}`;
+}
+
+async function renderCompanyPage() {
+  const nameElement = document.getElementById("companyName");
+  if (!nameElement) return;
+
   const params = new URLSearchParams(window.location.search);
-  const ticker = params.get("ticker") || "AAPL";
-  const c = companies.find(x => x.ticker === ticker) || companies[0];
-  const name = document.getElementById("companyName");
-  if (!name) return;
-  name.textContent = `${c.ticker} — ${c.name}`;
-  document.getElementById("companyMeta").textContent = `${c.sector} | CIK: ${c.cik}`;
-  document.getElementById("secSearch").href = secSearchUrl(c.cik);
-  document.getElementById("secJson").href = secJsonUrl(c.cik);
-  document.getElementById("bull").textContent = c.bull;
-  document.getElementById("bear").textContent = c.bear;
+  const ticker = (params.get("ticker") || "AAPL").toUpperCase();
+
+  const metaElement = document.getElementById("companyMeta");
+  const secSearch = document.getElementById("secSearch");
+  const secJson = document.getElementById("secJson");
+  const edgarTopLink = document.getElementById("edgarTopLink");
+  const filingStatus = document.getElementById("filingStatus");
+  const filingsTable = document.getElementById("filingsTable");
+
+  try {
+    const company = await findCompanyByTicker(ticker);
+    if (!company) throw new Error("Company not found in SEC company ticker list.");
+
+    document.title = `${company.ticker} | SEC Research Hub`;
+    nameElement.textContent = `${company.ticker} — ${company.name}`;
+    metaElement.textContent = `CIK: ${company.cik}`;
+
+    const browse = secBrowseUrl(company.cik);
+    const submissions = secSubmissionsUrl(company.cik);
+
+    secSearch.href = browse;
+    secJson.href = submissions;
+    edgarTopLink.href = browse;
+
+    const response = await fetch(submissions);
+    if (!response.ok) throw new Error(`SEC submissions request failed: ${response.status}`);
+    const data = await response.json();
+    const recent = data.filings.recent;
+
+    const rows = recent.form.slice(0, 25).map((form, index) => {
+      const accession = recent.accessionNumber[index];
+      const primaryDocument = recent.primaryDocument[index];
+      const filingUrl = filingDocumentUrl(company.cik, accession, primaryDocument);
+
+      return `
+        <tr>
+          <td><strong>${form}</strong></td>
+          <td>${recent.filingDate[index] || ""}</td>
+          <td>${recent.reportDate[index] || ""}</td>
+          <td><a href="${filingUrl}" target="_blank" rel="noopener">${accession}</a></td>
+        </tr>
+      `;
+    }).join("");
+
+    filingsTable.innerHTML = rows;
+    filingStatus.textContent = `Showing latest 25 filings from official SEC submissions JSON.`;
+  } catch (error) {
+    nameElement.textContent = ticker;
+    metaElement.textContent = "Could not load company data.";
+    filingStatus.textContent = error.message;
+    filingsTable.innerHTML = "";
+  }
 }
 
-renderCompanies();
+initIndexPage();
 renderCompanyPage();

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Research | SEC Research Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="page-header">
+    <nav>
+      <div class="logo"><a href="index.html">SEC Research Hub</a></div>
+      <div class="nav-links">
+        <a href="index.html">All Companies</a>
+        <a id="edgarTopLink" href="#" target="_blank" rel="noopener">SEC EDGAR</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="company-hero">
+      <p class="eyebrow">Company page</p>
+      <h1 id="companyName">Loading company...</h1>
+      <p id="companyMeta"></p>
+      <div class="links">
+        <a id="secSearch" target="_blank" rel="noopener">Official SEC EDGAR page</a>
+        <a id="secJson" target="_blank" rel="noopener">Official submissions JSON</a>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Latest SEC Filings</h2>
+      <p id="filingStatus">Loading latest filings from SEC submissions JSON...</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Form</th>
+              <th>Filed</th>
+              <th>Report Date</th>
+              <th>Accession</th>
+            </tr>
+          </thead>
+          <tbody id="filingsTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel two-column">
+      <div>
+        <h2>Research Notes</h2>
+        <p>This section is intentionally blank for your own analysis. Do not fake bull/bear cases. Read filings first.</p>
+      </div>
+      <div>
+        <h2>Next Upgrade</h2>
+        <p>Add financial facts from SEC XBRL company facts API, then add earnings/news from another data source.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
