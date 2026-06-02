@@ -1,0 +1,1228 @@
+{
+  "ticker": "META",
+  "title": "Meta Platforms, Inc.",
+  "cik": "1326801",
+  "updated_at": "2026-06-02T07:32:22.497053+00:00",
+  "filings": [
+    {
+      "ticker": "META",
+      "formType": "144",
+      "accessionNo": "0001921094-26-000580",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Subject)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000580/xsl144X01/primary_doc.xml",
+      "description": "Form 144 - Report of proposed sale of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000580/0001921094-26-000580.txt",
+      "filedAt": "2026-06-01T16:11:20-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000580/xsl144X01/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "1",
+          "size": "11760",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000580/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "13249",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000580/0001921094-26-000580.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "act": "33",
+          "cik": "1326801",
+          "fileNo": "001-35551",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Subject)",
+          "type": "144",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "filmNo": "261050868",
+          "undefined": "06 Technology)"
+        },
+        {
+          "cik": "1564475",
+          "companyName": "Olivan Javier (Reporting)",
+          "type": "144"
+        }
+      ],
+      "id": "638e6a0ab4cb2e3ba907f87555da2744",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000580/0001921094-26-000580-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "144",
+      "accessionNo": "0001921094-26-000579",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Subject)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1181218/000192109426000579/xsl144X01/primary_doc.xml",
+      "description": "Form 144 - Report of proposed sale of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000579/0001921094-26-000579.txt",
+      "filedAt": "2026-06-01T16:10:35-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1181218/000192109426000579/xsl144X01/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "1",
+          "size": "4743",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1181218/000192109426000579/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "6235",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1181218/000192109426000579/0001921094-26-000579.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "cik": "1181218",
+          "companyName": "KIMMITT ROBERT M (Reporting)",
+          "type": "144"
+        },
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "act": "33",
+          "cik": "1326801",
+          "fileNo": "001-35551",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Subject)",
+          "type": "144",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "filmNo": "261050847",
+          "undefined": "06 Technology)"
+        }
+      ],
+      "id": "e1aff1b7e2726eed32512d7e8e1ce3a3",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000579/0001921094-26-000579-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-008089",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/0000950103-26-008089.txt",
+      "filedAt": "2026-05-29T18:51:23-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "3510",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "5007",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/0000950103-26-008089.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-27",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "2105423",
+          "fileNo": "001-35551",
+          "companyName": "Mahoney Curtis J. (Reporting)",
+          "type": "4",
+          "filmNo": "261046613"
+        }
+      ],
+      "id": "6154c5bd54d04f912d500d15bcebeb15",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326008089/0000950103-26-008089-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "8-K",
+      "accessionNo": "0001628280-26-039193",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Filer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527.htm",
+      "description": "Form 8-K - Current report - Item 5.07",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/0001628280-26-039193.txt",
+      "filedAt": "2026-05-29T16:16:13-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "79404",
+          "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1326801/000162828026039193/meta-20260527.htm",
+          "description": "8-K",
+          "type": "8-K"
+        },
+        {
+          "sequence": "5",
+          "size": "16019",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527_g1.jpg",
+          "type": "GRAPHIC"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "239349",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/0001628280-26-039193.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-27",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "act": "34",
+          "cik": "1326801",
+          "fileNo": "001-35551",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Filer)",
+          "type": "8-K",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "filmNo": "261044694",
+          "undefined": "06 Technology)"
+        }
+      ],
+      "id": "08c435fff909b12ef904c99b065feadf",
+      "seriesAndClassesContractsInformation": [],
+      "items": [
+        "Item 5.07: Submission of Matters to a Vote of Security Holders"
+      ],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/0001628280-26-039193-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": [
+        {
+          "sequence": "2",
+          "size": "1827",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527.xsd",
+          "description": "XBRL TAXONOMY EXTENSION SCHEMA DOCUMENT",
+          "type": "EX-101.SCH"
+        },
+        {
+          "sequence": "3",
+          "size": "21885",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527_lab.xml",
+          "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE DOCUMENT",
+          "type": "EX-101.LAB"
+        },
+        {
+          "sequence": "4",
+          "size": "12549",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527_pre.xml",
+          "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE DOCUMENT",
+          "type": "EX-101.PRE"
+        },
+        {
+          "sequence": "15",
+          "size": "2821",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026039193/meta-20260527_htm.xml",
+          "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+          "type": "XML"
+        }
+      ]
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007988",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/0000950103-26-007988.txt",
+      "filedAt": "2026-05-28T18:49:12-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "10852",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "12345",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/0000950103-26-007988.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-26",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "1564475",
+          "fileNo": "001-35551",
+          "companyName": "Olivan Javier (Reporting)",
+          "type": "4",
+          "filmNo": "261038365"
+        }
+      ],
+      "id": "7326f9f8f65704cf20e65d8a6ac99fae",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007988/0000950103-26-007988-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "144",
+      "accessionNo": "0001921094-26-000559",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Subject)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000559/xsl144X01/primary_doc.xml",
+      "description": "Form 144 - Report of proposed sale of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000559/0001921094-26-000559.txt",
+      "filedAt": "2026-05-27T16:03:45-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000559/xsl144X01/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "1",
+          "size": "2991",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000559/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "4484",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000559/0001921094-26-000559.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "act": "33",
+          "cik": "1326801",
+          "fileNo": "001-35551",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Subject)",
+          "type": "144",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "filmNo": "261026059",
+          "undefined": "06 Technology)"
+        },
+        {
+          "cik": "2105423",
+          "companyName": "Mahoney Curtis J. (Reporting)",
+          "type": "144"
+        }
+      ],
+      "id": "d50b15889820b08bb0a197f610f1b0c6",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000559/0001921094-26-000559-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "144",
+      "accessionNo": "0001921094-26-000543",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Subject)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000543/xsl144X01/primary_doc.xml",
+      "description": "Form 144 - Report of proposed sale of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000543/0001921094-26-000543.txt",
+      "filedAt": "2026-05-26T16:06:21-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000543/xsl144X01/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "1",
+          "size": "11171",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000543/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "12660",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000543/0001921094-26-000543.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "act": "33",
+          "cik": "1326801",
+          "fileNo": "001-35551",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Subject)",
+          "type": "144",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "filmNo": "261019771",
+          "undefined": "06 Technology)"
+        },
+        {
+          "cik": "1564475",
+          "companyName": "Olivan Javier (Reporting)",
+          "type": "144"
+        }
+      ],
+      "id": "0ed9c18f6fcc0fe6c7dbeabb767b3b25",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000192109426000543/0001921094-26-000543-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "SD",
+      "accessionNo": "0001628280-26-037717",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Filer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026037717/formsd-12312025.htm",
+      "description": "Form SD - Specialized disclosure report",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026037717/0001628280-26-037717.txt",
+      "filedAt": "2026-05-22T16:10:54-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "19281",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026037717/formsd-12312025.htm",
+          "description": "SD",
+          "type": "SD"
+        },
+        {
+          "sequence": "2",
+          "size": "57969",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026037717/exhibit101-conflictmineral.htm",
+          "description": "EX-1.01",
+          "type": "EX-1.01"
+        },
+        {
+          "sequence": "3",
+          "size": "16019",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026037717/metalogoa.jpg",
+          "type": "GRAPHIC"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "100636",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026037717/0001628280-26-037717.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "act": "34",
+          "cik": "1326801",
+          "fileNo": "001-35551",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Filer)",
+          "type": "SD",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "filmNo": "261013855",
+          "undefined": "06 Technology)"
+        }
+      ],
+      "id": "ce95465688e383063e1eba92077b2f13",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026037717/0001628280-26-037717-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007496",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007496/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007496/0000950103-26-007496.txt",
+      "filedAt": "2026-05-19T20:58:24-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007496/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "11616",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007496/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "13088",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007496/0000950103-26-007496.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "2006664",
+          "fileNo": "001-35551",
+          "companyName": "Powell Dina H. (Reporting)",
+          "type": "4",
+          "filmNo": "261001135"
+        }
+      ],
+      "id": "10ff9321757fb4c6e806367a33bdffe9",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007496/0000950103-26-007496-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007493",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/0000950103-26-007493.txt",
+      "filedAt": "2026-05-19T20:55:35-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "28089",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "29582",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/0000950103-26-007493.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "1564475",
+          "fileNo": "001-35551",
+          "companyName": "Olivan Javier (Reporting)",
+          "type": "4",
+          "filmNo": "261001130"
+        }
+      ],
+      "id": "8c302bc1ef1ab11a7623f48b67512d4f",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007493/0000950103-26-007493-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007492",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007492/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007492/0000950103-26-007492.txt",
+      "filedAt": "2026-05-19T20:53:10-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007492/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "7811",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007492/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "9308",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007492/0000950103-26-007492.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "2105423",
+          "fileNo": "001-35551",
+          "companyName": "Mahoney Curtis J. (Reporting)",
+          "type": "4",
+          "filmNo": "261001128"
+        }
+      ],
+      "id": "6167739b6bf5fd726d1143184bfe83c7",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007492/0000950103-26-007492-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007491",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007491/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007491/0000950103-26-007491.txt",
+      "filedAt": "2026-05-19T20:52:13-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007491/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "21054",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007491/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "22551",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007491/0000950103-26-007491.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "1607459",
+          "fileNo": "001-35551",
+          "companyName": "Cox Christopher K (Reporting)",
+          "type": "4",
+          "filmNo": "261001127"
+        }
+      ],
+      "id": "c041b2ce927030c1d9d96212007d6316",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007491/0000950103-26-007491-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007490",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007490/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007490/0000950103-26-007490.txt",
+      "filedAt": "2026-05-19T20:52:08-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007490/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "36662",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007490/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "38162",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007490/0000950103-26-007490.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "1917373",
+          "fileNo": "001-35551",
+          "companyName": "Bosworth Andrew (Reporting)",
+          "type": "4",
+          "filmNo": "261001126"
+        }
+      ],
+      "id": "ac79a3751b6b8666e5db1f4d161128b8",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007490/0000950103-26-007490-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007489",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007489/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007489/0000950103-26-007489.txt",
+      "filedAt": "2026-05-19T20:51:39-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007489/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "46164",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007489/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "47663",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007489/0000950103-26-007489.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "1739092",
+          "fileNo": "001-35551",
+          "companyName": "LI SUSAN J (Reporting)",
+          "type": "4",
+          "filmNo": "261001125"
+        }
+      ],
+      "id": "00976903aca8b4d3cbad26d2c4f9266a",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007489/0000950103-26-007489-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007488",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007488/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007488/0000950103-26-007488.txt",
+      "filedAt": "2026-05-19T20:49:59-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007488/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "19039",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007488/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "20545",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007488/0000950103-26-007488.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "1645073",
+          "fileNo": "001-35551",
+          "companyName": "Anderson Aaron (Reporting)",
+          "type": "4",
+          "filmNo": "261001122"
+        }
+      ],
+      "id": "5a03190cd69f399c03f3aeee7594ff61",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007488/0000950103-26-007488-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007478",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007478/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007478/0000950103-26-007478.txt",
+      "filedAt": "2026-05-19T20:31:07-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007478/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "11585",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007478/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "13082",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007478/0000950103-26-007478.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "2051627",
+          "fileNo": "001-35551",
+          "companyName": "Songhurst Charles (Reporting)",
+          "type": "4",
+          "filmNo": "261001075"
+        }
+      ],
+      "id": "b208a656a7313ac51646f0aca8923088",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007478/0000950103-26-007478-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007475",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1181218/000095010326007475/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007475/0000950103-26-007475.txt",
+      "filedAt": "2026-05-19T20:29:01-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1181218/000095010326007475/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "6156",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1181218/000095010326007475/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "7652",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1181218/000095010326007475/0000950103-26-007475.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "act": "34",
+          "cik": "1181218",
+          "fileNo": "001-35551",
+          "companyName": "KIMMITT ROBERT M (Reporting)",
+          "type": "4",
+          "filmNo": "261001060"
+        },
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        }
+      ],
+      "id": "1ad3fe47fceeb7d3d49cb6d18d7c6bc2",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007475/0000950103-26-007475-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007474",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007474/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007474/0000950103-26-007474.txt",
+      "filedAt": "2026-05-19T20:27:05-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007474/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "11572",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007474/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "13040",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007474/0000950103-26-007474.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "1579992",
+          "fileNo": "001-35551",
+          "companyName": "Elkann John (Reporting)",
+          "type": "4",
+          "filmNo": "261001054"
+        }
+      ],
+      "id": "0acadcbe1546e12e04a8ae3ade35fbd8",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007474/0000950103-26-007474-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007472",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007472/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007472/0000950103-26-007472.txt",
+      "filedAt": "2026-05-19T20:24:36-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007472/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "10030",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007472/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "11522",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007472/0000950103-26-007472.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        },
+        {
+          "act": "34",
+          "cik": "2011994",
+          "fileNo": "001-35551",
+          "companyName": "Arnold John Douglas (Reporting)",
+          "type": "4",
+          "filmNo": "261001051"
+        }
+      ],
+      "id": "ee1cfcc4a2ff93e5f43e88fbc560449d",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007472/0000950103-26-007472-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "META",
+      "formType": "4",
+      "accessionNo": "0000950103-26-007470",
+      "cik": "1326801",
+      "companyNameLong": "Meta Platforms, Inc. (Issuer)",
+      "companyName": "Meta Platforms, Inc.",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/1160077/000095010326007470/xslF345X06/ownership.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007470/0000950103-26-007470.txt",
+      "filedAt": "2026-05-19T20:22:34-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1160077/000095010326007470/xslF345X06/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "8215",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1160077/000095010326007470/ownership.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "9825",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/1160077/000095010326007470/0000950103-26-007470.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "act": "34",
+          "cik": "1160077",
+          "fileNo": "001-35551",
+          "companyName": "Andreessen Marc L (Reporting)",
+          "type": "4",
+          "filmNo": "261001044"
+        },
+        {
+          "fiscalYearEnd": "1231",
+          "stateOfIncorporation": "DE",
+          "cik": "1326801",
+          "irsNo": "201665019",
+          "companyName": "Meta Platforms, Inc. (Issuer)",
+          "sic": "7370 Services-Computer Programming, Data Processing, Etc.",
+          "undefined": "06 Technology)"
+        }
+      ],
+      "id": "983f6e4802fb587deac2af2613a4ee94",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/1326801/000095010326007470/0000950103-26-007470-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    }
+  ]
+}

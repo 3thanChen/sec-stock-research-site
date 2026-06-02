@@ -1,0 +1,1275 @@
+{
+  "ticker": "AMD",
+  "title": "ADVANCED MICRO DEVICES INC",
+  "cik": "2488",
+  "updated_at": "2026-06-02T07:32:22.798368+00:00",
+  "filings": [
+    {
+      "ticker": "AMD",
+      "formType": "144",
+      "accessionNo": "0001950047-26-005325",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Subject)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005325/xsl144X01/primary_doc.xml",
+      "description": "Form 144 - Report of proposed sale of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005325/0001950047-26-005325.txt",
+      "filedAt": "2026-05-29T17:34:43-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005325/xsl144X01/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "1",
+          "size": "3220",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005325/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "4703",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005325/0001950047-26-005325.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "act": "33",
+          "cik": "2488",
+          "fileNo": "001-07882",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Subject)",
+          "type": "144",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "filmNo": "261046367",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "cik": "1418351",
+          "companyName": "Denzel Nora (Reporting)",
+          "type": "144"
+        }
+      ],
+      "id": "a6cc600da5ee9d8dd65982fd004910a9",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005325/0001950047-26-005325-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "144",
+      "accessionNo": "0001950047-26-005209",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Subject)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005209/xsl144X01/primary_doc.xml",
+      "description": "Form 144 - Report of proposed sale of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005209/0001950047-26-005209.txt",
+      "filedAt": "2026-05-28T16:22:22-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005209/xsl144X01/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "1",
+          "size": "3808",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005209/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "5238",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005209/0001950047-26-005209.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "act": "33",
+          "cik": "2488",
+          "fileNo": "001-07882",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Subject)",
+          "type": "144",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "filmNo": "261036243",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "cik": "1331263",
+          "companyName": "Olson Jon A (Reporting)",
+          "type": "144"
+        }
+      ],
+      "id": "81758be6be4bbaa08f0c49441651c306",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000195004726005209/0001950047-26-005209-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "SD",
+      "accessionNo": "0000002488-26-000103",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Filer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000103/formsd-amd2025.htm",
+      "description": "Form SD - Specialized disclosure report",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000103/0000002488-26-000103.txt",
+      "filedAt": "2026-05-28T16:15:59-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "18380",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000103/formsd-amd2025.htm",
+          "description": "SD",
+          "type": "SD"
+        },
+        {
+          "sequence": "2",
+          "size": "282130",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000103/fy2025cmr.htm",
+          "description": "EX-1.01",
+          "type": "EX-1.01"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "301644",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000103/0000002488-26-000103.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "act": "34",
+          "cik": "2488",
+          "fileNo": "001-07882",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Filer)",
+          "type": "SD",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "filmNo": "261036046",
+          "undefined": "04 Manufacturing)"
+        }
+      ],
+      "id": "ca8799c352ea698092c3f1a86ed79c25",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000103/0000002488-26-000103-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000100",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000100/xslF345X06/wk-form4_1779486197.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000100/0000002488-26-000100.txt",
+      "filedAt": "2026-05-22T17:43:20-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000100/xslF345X06/wk-form4_1779486197.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "23039",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000100/wk-form4_1779486197.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "24493",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000100/0000002488-26-000100.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-20",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "act": "34",
+          "cik": "1622864",
+          "fileNo": "001-07882",
+          "companyName": "Norrod Forrest Eugene (Reporting)",
+          "type": "4",
+          "filmNo": "261015247"
+        }
+      ],
+      "id": "edb282c73a5fee91af7a09209133dc22",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000100/0000002488-26-000100-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "144",
+      "accessionNo": "0001950047-26-004852",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Subject)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004852/xsl144X01/primary_doc.xml",
+      "description": "Form 144 - Report of proposed sale of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004852/0001950047-26-004852.txt",
+      "filedAt": "2026-05-20T16:53:40-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004852/xsl144X01/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "1",
+          "size": "4111",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004852/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "5551",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004852/0001950047-26-004852.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "act": "33",
+          "cik": "2488",
+          "fileNo": "001-07882",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Subject)",
+          "type": "144",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "filmNo": "261004807",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "cik": "1622864",
+          "companyName": "Norrod Forrest Eugene (Reporting)",
+          "type": "144"
+        }
+      ],
+      "id": "1afe3cc5872683f7cb8f3a5799fb9c74",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004852/0001950047-26-004852-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000098",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000098/xslF345X06/wk-form4_1779221586.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000098/0000002488-26-000098.txt",
+      "filedAt": "2026-05-19T16:13:08-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000098/xslF345X06/wk-form4_1779221586.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "8570",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000098/wk-form4_1779221586.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "10020",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000098/0000002488-26-000098.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-15",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "act": "34",
+          "cik": "1449649",
+          "fileNo": "001-07882",
+          "companyName": "Papermaster Mark D (Reporting)",
+          "type": "4",
+          "filmNo": "26998856"
+        }
+      ],
+      "id": "af8aba6faef64ae8386c2332122664c0",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000098/0000002488-26-000098-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000096",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000096/xslF345X06/wk-form4_1778879141.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000096/0000002488-26-000096.txt",
+      "filedAt": "2026-05-15T17:05:45-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000096/xslF345X06/wk-form4_1778879141.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "51114",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000096/wk-form4_1778879141.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "52555",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000096/0000002488-26-000096.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-13",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "act": "34",
+          "cik": "1405109",
+          "fileNo": "001-07882",
+          "companyName": "Su Lisa T (Reporting)",
+          "type": "4",
+          "filmNo": "26989607"
+        }
+      ],
+      "id": "3c96d22eefb440ba04e9a6917c6221f5",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000096/0000002488-26-000096-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000094",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000094/xslF345X06/wk-form4_1778878661.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000094/0000002488-26-000094.txt",
+      "filedAt": "2026-05-15T16:57:43-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000094/xslF345X06/wk-form4_1778878661.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "8802",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000094/wk-form4_1778878661.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "10257",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000094/0000002488-26-000094.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-13",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "act": "34",
+          "cik": "1232255",
+          "fileNo": "001-07882",
+          "companyName": "VANDERSLICE ELIZABETH W (Reporting)",
+          "type": "4",
+          "filmNo": "26989384"
+        }
+      ],
+      "id": "2ee21ef363408559103f9ac9f464c559",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000094/0000002488-26-000094-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000092",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000092/xslF345X06/wk-form4_1778878523.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000092/0000002488-26-000092.txt",
+      "filedAt": "2026-05-15T16:55:26-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000092/xslF345X06/wk-form4_1778878523.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "4194",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000092/wk-form4_1778878523.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "5599",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000092/0000002488-26-000092.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-13",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "act": "34",
+          "cik": "1316065",
+          "fileNo": "001-07882",
+          "companyName": "TALWALKAR ABHIJIT Y (Reporting)",
+          "type": "4",
+          "filmNo": "26989340"
+        }
+      ],
+      "id": "4755af51568075f9a1d7fb91dc2bc6fa",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000092/0000002488-26-000092-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000090",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000090/xslF345X06/wk-form4_1778878435.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000090/0000002488-26-000090.txt",
+      "filedAt": "2026-05-15T16:54:01-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000090/xslF345X06/wk-form4_1778878435.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "4222",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000090/wk-form4_1778878435.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "5636",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000090/0000002488-26-000090.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-13",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "act": "34",
+          "cik": "1764707",
+          "fileNo": "001-07882",
+          "companyName": "McClure Kathleen R (Reporting)",
+          "type": "4",
+          "filmNo": "26989306"
+        }
+      ],
+      "id": "2f0342cbc4319caabe21688e1306d4e1",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000090/0000002488-26-000090-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000088",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000088/xslF345X06/wk-form4_1778878356.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000088/0000002488-26-000088.txt",
+      "filedAt": "2026-05-15T16:52:39-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000088/xslF345X06/wk-form4_1778878356.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "4181",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000088/wk-form4_1778878356.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "5626",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000088/0000002488-26-000088.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-13",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "act": "34",
+          "cik": "1180380",
+          "fileNo": "001-07882",
+          "companyName": "MARREN JOHN W (Reporting)",
+          "type": "4",
+          "filmNo": "26989267"
+        }
+      ],
+      "id": "a33732481a55267bd11d0d60159ac4f5",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000088/0000002488-26-000088-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000086",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000086/xslF345X06/wk-form4_1778878294.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000086/0000002488-26-000086.txt",
+      "filedAt": "2026-05-15T16:51:37-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000086/xslF345X06/wk-form4_1778878294.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "7362",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000086/wk-form4_1778878294.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "8814",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000086/0000002488-26-000086.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-13",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "act": "34",
+          "cik": "1361347",
+          "fileNo": "001-07882",
+          "companyName": "HOUSEHOLDER JOSEPH A (Reporting)",
+          "type": "4",
+          "filmNo": "26989248"
+        }
+      ],
+      "id": "727e232be252ac58f82902a5b5a5177b",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000086/0000002488-26-000086-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000084",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000084/xslF345X06/wk-form4_1778878215.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000084/0000002488-26-000084.txt",
+      "filedAt": "2026-05-15T16:50:17-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000084/xslF345X06/wk-form4_1778878215.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "4226",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000084/wk-form4_1778878215.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "5799",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000084/0000002488-26-000084.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-13",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "stateOfIncorporation": "DE",
+          "act": "34",
+          "cik": "1232409",
+          "fileNo": "001-07882",
+          "companyName": "GREGOIRE MICHAEL P (Reporting)",
+          "type": "4",
+          "filmNo": "26989218"
+        }
+      ],
+      "id": "b23a315529d59e2473cb3f5e487e29cf",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000084/0000002488-26-000084-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000082",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000082/xslF345X06/wk-form4_1778878151.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000082/0000002488-26-000082.txt",
+      "filedAt": "2026-05-15T16:49:14-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000082/xslF345X06/wk-form4_1778878151.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "7378",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000082/wk-form4_1778878151.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "8874",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000082/0000002488-26-000082.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-13",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "act": "34",
+          "cik": "1418351",
+          "fileNo": "001-07882",
+          "companyName": "Denzel Nora (Reporting)",
+          "type": "4",
+          "filmNo": "26989185"
+        }
+      ],
+      "id": "839214ddd85eef2193a8bcdb70744866",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000082/0000002488-26-000082-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "S-8",
+      "accessionNo": "0001193125-26-227017",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Filer)",
+      "effectivenessDate": "2026-05-15",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000119312526227017/d246951ds8.htm",
+      "description": "Form S-8 - Securities to be offered to employees in employee benefit plans",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000119312526227017/0001193125-26-227017.txt",
+      "filedAt": "2026-05-15T16:39:40-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "37758",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526227017/d246951ds8.htm",
+          "description": "S-8",
+          "type": "S-8"
+        },
+        {
+          "sequence": "2",
+          "size": "11236",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526227017/d246951dex51.htm",
+          "description": "EX-5.1",
+          "type": "EX-5.1"
+        },
+        {
+          "sequence": "3",
+          "size": "1659",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526227017/d246951dex232.htm",
+          "description": "EX-23.2",
+          "type": "EX-23.2"
+        },
+        {
+          "sequence": "4",
+          "size": "12475",
+          "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/2488/000119312526227017/d246951dexfilingfees.htm",
+          "description": "EX-FILING FEES",
+          "type": "EX-FILING FEES"
+        },
+        {
+          "sequence": "5",
+          "size": "3229",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526227017/g246951g0515015517929.jpg",
+          "description": "GRAPHIC",
+          "type": "GRAPHIC"
+        },
+        {
+          "sequence": "6",
+          "size": "2344",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526227017/g246951g0515015519043.jpg",
+          "description": "GRAPHIC",
+          "type": "GRAPHIC"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "191113",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526227017/0001193125-26-227017.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "act": "33",
+          "cik": "2488",
+          "fileNo": "333-295957",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Filer)",
+          "type": "S-8",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "filmNo": "26988904",
+          "undefined": "04 Manufacturing)"
+        }
+      ],
+      "id": "604fd7919987c1755ea740d83ceb4f08",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000119312526227017/0001193125-26-227017-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": [
+        {
+          "sequence": "18",
+          "size": "4935",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526227017/d246951dexfilingfees_htm.xml",
+          "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+          "type": "XML"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "formType": "8-K",
+      "accessionNo": "0001193125-26-226746",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Filer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm",
+      "description": "Form 8-K - Current report - Item 1.01 Item 1.02 Item 2.03 Item 5.02 Item 5.07 Item 9.01",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/0001193125-26-226746.txt",
+      "filedAt": "2026-05-15T16:12:53-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "57294",
+          "documentUrl": "https://www.sec.gov/ix?doc=/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm",
+          "description": "8-K",
+          "type": "8-K"
+        },
+        {
+          "sequence": "2",
+          "size": "697793",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163dex101.htm",
+          "description": "EX-10.1",
+          "type": "EX-10.1"
+        },
+        {
+          "sequence": "6",
+          "size": "1964",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/g118163g0515022513181.jpg",
+          "description": "GRAPHIC",
+          "type": "GRAPHIC"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "1045762",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/0001193125-26-226746.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-13",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "act": "34",
+          "cik": "2488",
+          "fileNo": "001-07882",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Filer)",
+          "type": "8-K",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "filmNo": "26987535",
+          "undefined": "04 Manufacturing)"
+        }
+      ],
+      "id": "37a5039fb58dec12cb0e8f2dcc41b4c1",
+      "seriesAndClassesContractsInformation": [],
+      "items": [
+        "Item 1.01: Entry into a Material Definitive Agreement",
+        "Item 1.02: Termination of a Material Definitive Agreement",
+        "Item 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant",
+        "Item 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers",
+        "Item 5.07: Submission of Matters to a Vote of Security Holders",
+        "Item 9.01: Financial Statements and Exhibits"
+      ],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/0001193125-26-226746-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": [
+        {
+          "sequence": "3",
+          "size": "3163",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/amd-20260513.xsd",
+          "description": "XBRL TAXONOMY EXTENSION SCHEMA",
+          "type": "EX-101.SCH"
+        },
+        {
+          "sequence": "4",
+          "size": "17234",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/amd-20260513_lab.xml",
+          "description": "XBRL TAXONOMY EXTENSION LABEL LINKBASE",
+          "type": "EX-101.LAB"
+        },
+        {
+          "sequence": "5",
+          "size": "10802",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/amd-20260513_pre.xml",
+          "description": "XBRL TAXONOMY EXTENSION PRESENTATION LINKBASE",
+          "type": "EX-101.PRE"
+        },
+        {
+          "sequence": "17",
+          "size": "3531",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k_htm.xml",
+          "description": "EXTRACTED XBRL INSTANCE DOCUMENT",
+          "type": "XML"
+        }
+      ]
+    },
+    {
+      "ticker": "AMD",
+      "formType": "144",
+      "accessionNo": "0001950047-26-004576",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Subject)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004576/xsl144X01/primary_doc.xml",
+      "description": "Form 144 - Report of proposed sale of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004576/0001950047-26-004576.txt",
+      "filedAt": "2026-05-15T16:07:05-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004576/xsl144X01/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "1",
+          "size": "6820",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004576/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "8256",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004576/0001950047-26-004576.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "act": "33",
+          "cik": "2488",
+          "fileNo": "001-07882",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Subject)",
+          "type": "144",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "filmNo": "26987199",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "cik": "1449649",
+          "companyName": "Papermaster Mark D (Reporting)",
+          "type": "144"
+        }
+      ],
+      "id": "9c0531a32861970588cc37f2ce05a67f",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004576/0001950047-26-004576-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "144",
+      "accessionNo": "0001950047-26-004473",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Subject)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004473/xsl144X01/primary_doc.xml",
+      "description": "Form 144 - Report of proposed sale of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004473/0001950047-26-004473.txt",
+      "filedAt": "2026-05-13T16:42:35-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004473/xsl144X01/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "1",
+          "size": "4094",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004473/primary_doc.xml",
+          "type": "144"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "5521",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004473/0001950047-26-004473.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "act": "33",
+          "cik": "2488",
+          "fileNo": "001-07882",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Subject)",
+          "type": "144",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "filmNo": "26974136",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "cik": "1405109",
+          "companyName": "Su Lisa T (Reporting)",
+          "type": "144"
+        }
+      ],
+      "id": "830ca81a122f369034876235ad6361c3",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000195004726004473/0001950047-26-004473-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "4",
+      "accessionNo": "0000002488-26-000080",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Issuer)",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000080/xslF345X06/wk-form4_1778703871.xml",
+      "description": "Form 4 - Statement of changes in beneficial ownership of securities",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000080/0000002488-26-000080.txt",
+      "filedAt": "2026-05-13T16:24:34-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000080/xslF345X06/wk-form4_1778703871.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "1",
+          "size": "4635",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000080/wk-form4_1778703871.xml",
+          "description": "FORM 4",
+          "type": "4"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "6085",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000080/0000002488-26-000080.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-05-11",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "cik": "2488",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Issuer)",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "undefined": "04 Manufacturing)"
+        },
+        {
+          "act": "34",
+          "cik": "1449649",
+          "fileNo": "001-07882",
+          "companyName": "Papermaster Mark D (Reporting)",
+          "type": "4",
+          "filmNo": "26973759"
+        }
+      ],
+      "id": "93be2fabb1aa0db75ce31716bba6b4ac",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000080/0000002488-26-000080-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    },
+    {
+      "ticker": "AMD",
+      "formType": "13F-HR",
+      "accessionNo": "0001193125-26-219769",
+      "cik": "2488",
+      "companyNameLong": "ADVANCED MICRO DEVICES INC (Filer)",
+      "effectivenessDate": "2026-05-12",
+      "companyName": "ADVANCED MICRO DEVICES INC",
+      "linkToFilingDetails": "https://www.sec.gov/Archives/edgar/data/2488/000119312526219769/xslForm13F_X02/primary_doc.xml",
+      "description": "Form 13F-HR - Quarterly report filed by institutional managers, Holdings",
+      "linkToTxt": "https://www.sec.gov/Archives/edgar/data/2488/000119312526219769/0001193125-26-219769.txt",
+      "filedAt": "2026-05-12T17:00:25-04:00",
+      "documentFormatFiles": [
+        {
+          "sequence": "1",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526219769/xslForm13F_X02/primary_doc.xml",
+          "type": "13F-HR"
+        },
+        {
+          "sequence": "1",
+          "size": "1956",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526219769/primary_doc.xml",
+          "type": "13F-HR"
+        },
+        {
+          "sequence": "2",
+          "size": "\u00a0",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526219769/xslForm13F_X02/53603.xml",
+          "description": "INFORMATION TABLE FOR FORM 13F",
+          "type": "INFORMATION TABLE"
+        },
+        {
+          "sequence": "2",
+          "size": "2013",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526219769/53603.xml",
+          "description": "INFORMATION TABLE FOR FORM 13F",
+          "type": "INFORMATION TABLE"
+        },
+        {
+          "sequence": "\u00a0",
+          "size": "5288",
+          "documentUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526219769/0001193125-26-219769.txt",
+          "description": "Complete submission text file",
+          "type": "\u00a0"
+        }
+      ],
+      "periodOfReport": "2026-03-31",
+      "entities": [
+        {
+          "fiscalYearEnd": "1226",
+          "stateOfIncorporation": "DE",
+          "act": "34",
+          "cik": "2488",
+          "fileNo": "028-26463",
+          "irsNo": "941692300",
+          "companyName": "ADVANCED MICRO DEVICES INC (Filer)",
+          "type": "13F-HR",
+          "sic": "3674 Semiconductors &amp; Related Devices",
+          "filmNo": "26969645",
+          "undefined": "04 Manufacturing)"
+        }
+      ],
+      "id": "370612251e7ded3332c3156eb9fcebbd",
+      "seriesAndClassesContractsInformation": [],
+      "linkToHtml": "https://www.sec.gov/Archives/edgar/data/2488/000119312526219769/0001193125-26-219769-index.htm",
+      "linkToXbrl": "",
+      "dataFiles": []
+    }
+  ]
+}

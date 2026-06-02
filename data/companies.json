@@ -1,5 +1,46 @@
 {
-  "updated_at": "",
-  "count": 0,
-  "companies": []
+  "updated_at": "2026-06-02T07:32:22.799734+00:00",
+  "count": 8,
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "title": "Apple Inc.",
+      "cik": "320193"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "MICROSOFT CORP",
+      "cik": "789019"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "NVIDIA CORP",
+      "cik": "1045810"
+    },
+    {
+      "ticker": "TSLA",
+      "title": "Tesla, Inc.",
+      "cik": "1318605"
+    },
+    {
+      "ticker": "AMZN",
+      "title": "AMAZON COM INC",
+      "cik": "1018724"
+    },
+    {
+      "ticker": "META",
+      "title": "Meta Platforms, Inc.",
+      "cik": "1326801"
+    },
+    {
+      "ticker": "GOOGL",
+      "title": "Alphabet Inc.",
+      "cik": "1652044"
+    },
+    {
+      "ticker": "AMD",
+      "title": "ADVANCED MICRO DEVICES INC",
+      "cik": "2488"
+    }
+  ]
 }
