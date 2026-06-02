@@ -13,21 +13,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
 
-      - name: Run SEC sync
+      - name: Run sync script
         run: python sync-sec-companies.py
 
-      - name: Commit updated company file
+      - name: Commit updated data
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/company_tickers.json
-          git commit -m "Sync SEC company tickers" || echo "No changes"
+          git commit -m "Update SEC company tickers" || echo "No changes"
           git push
