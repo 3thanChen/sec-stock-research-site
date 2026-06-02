@@ -1,0 +1,23 @@
+{
+  "rewrites": [
+    {
+      "source": "/quote/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/research/:path*",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "sec-stock-research-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Live SEC stock research website with quote pages, filings, financials, events, insider activity, and evidence links.",
+  "scripts": {
+    "start": "node local-server.js",
+    "dev": "node local-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
