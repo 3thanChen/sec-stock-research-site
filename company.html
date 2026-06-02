@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Company Research | SEC Research Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo"><a href="index.html">SEC Research Hub</a></div>
+    <nav class="nav-links">
+      <a href="index.html">All Companies</a>
+      <a id="edgarTopLink" href="#" target="_blank" rel="noopener">SEC EDGAR</a>
+    </nav>
+  </header>
+
+  <main class="market-layout">
+    <section class="company-strip">
+      <div>
+        <p class="eyebrow">Company filing feed</p>
+        <h1 id="companyName">Loading company...</h1>
+        <p id="companyMeta"></p>
+      </div>
+      <div class="links compact-links">
+        <a id="secSearch" target="_blank" rel="noopener">EDGAR</a>
+        <a id="secJson" target="_blank" rel="noopener">JSON</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-title-row">
+        <h2>Latest SEC Filings</h2>
+        <p id="filingStatus">Loading latest filings from SEC submissions JSON...</p>
+      </div>
+      <div class="table-wrap market-table-wrap">
+        <table class="market-table">
+          <thead>
+            <tr>
+              <th>Form</th>
+              <th>Filed</th>
+              <th>Report Date</th>
+              <th>Accession</th>
+            </tr>
+          </thead>
+          <tbody id="filingsTable"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
