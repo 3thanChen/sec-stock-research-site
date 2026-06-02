@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEC Stock Research Terminal</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">S</div>
+      <div>
+        <h1>SignalDesk</h1>
+        <p>SEC company research terminal</p>
+      </div>
+    </div>
+    <nav>
+      <button class="nav-btn active" data-view="searchView">Search</button>
+      <button class="nav-btn" data-view="rankingView">AI Rank</button>
+      <button class="nav-btn" data-view="pipelineView">Pipeline</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="searchView" class="view active-view">
+      <section class="hero">
+        <p class="eyebrow">SEC + live market research</p>
+        <h2>Search any SEC-reporting company.</h2>
+        <p class="hero-text">Open a clean stock page with company details, filings, financials, price data, and private notes.</p>
+        <div class="search-box">
+          <input id="searchInput" type="text" placeholder="Search ticker or company name, e.g. NVDA, Apple, Tesla" autocomplete="off" />
+          <button id="clearSearch">Clear</button>
+        </div>
+        <div id="statusText" class="status">Loading SEC company universe...</div>
+      </section>
+
+      <section class="results-panel">
+        <div class="section-head">
+          <h3>Company Results</h3>
+          <span id="resultCount">0</span>
+        </div>
+        <div id="results" class="results-grid"></div>
+      </section>
+    </section>
+
+    <section id="stockView" class="view">
+      <button id="backButton" class="back-btn">← Back to search</button>
+      <section class="stock-header-card">
+        <div>
+          <p class="eyebrow" id="exchangeLabel">SEC company</p>
+          <h2 id="stockTitle">Company</h2>
+          <p id="stockMeta">Ticker · CIK</p>
+        </div>
+        <div class="price-box">
+          <p>Live Price</p>
+          <h3 id="priceValue">—</h3>
+          <span id="priceNote">Connect a price API later</span>
+        </div>
+      </section>
+
+      <section class="stock-layout">
+        <div class="main-column">
+          <div class="card chart-card">
+            <div class="section-head">
+              <h3>Price Chart</h3>
+              <span>placeholder</span>
+            </div>
+            <div class="fake-chart">
+              <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="section-head">
+              <h3>Latest SEC Filings</h3>
+              <button id="refreshFilings">Refresh</button>
+            </div>
+            <div id="filingsList" class="list"></div>
+          </div>
+
+          <div class="card">
+            <div class="section-head">
+              <h3>Financials</h3>
+              <span>SEC XBRL hook</span>
+            </div>
+            <div id="financialsBox" class="metric-grid"></div>
+          </div>
+        </div>
+
+        <aside class="side-column">
+          <div class="card">
+            <h3>Deal Status</h3>
+            <select id="dealStatus">
+              <option>Watching</option>
+              <option>Researching</option>
+              <option>Contacted</option>
+              <option>Negotiating</option>
+              <option>Closed</option>
+              <option>Passed</option>
+            </select>
+          </div>
+
+          <div class="card">
+            <h3>Private Notes</h3>
+            <textarea id="notesBox" placeholder="Write thesis, risks, valuation notes, questions..."></textarea>
+            <button id="saveNotes">Save Notes</button>
+            <p id="saveStatus" class="small-status"></p>
+          </div>
+
+          <div class="card ai-card">
+            <h3>AI Signal Preview</h3>
+            <p id="aiPreview">AI ranking is not connected yet. This box will later summarize buy / hold / sell logic using filings, financials, news, and price action.</p>
+          </div>
+        </aside>
+      </section>
+    </section>
+
+    <section id="rankingView" class="view">
+      <section class="page-card">
+        <p class="eyebrow">Future feature</p>
+        <h2>AI Stock Ranking</h2>
+        <p>This page will later rank the top 10 companies based on SEC filings, financial trends, events, insider activity, news, and price movement.</p>
+      </section>
+    </section>
+
+    <section id="pipelineView" class="view">
+      <section class="page-card">
+        <p class="eyebrow">Local browser storage</p>
+        <h2>Deal Pipeline</h2>
+        <div id="pipelineBoard" class="pipeline-board"></div>
+      </section>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
