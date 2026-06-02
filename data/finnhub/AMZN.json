@@ -1,0 +1,234 @@
+{
+  "quote": {
+    "c": 261.26,
+    "d": -9.38,
+    "dp": -3.4659,
+    "h": 266.63,
+    "l": 260.7,
+    "o": 266.285,
+    "pc": 270.64,
+    "t": 1780344000
+  },
+  "news": [
+    {
+      "category": "company",
+      "datetime": 1780376808,
+      "headline": "Amazon moves Prime Day back to June, keeps it a four-day event",
+      "id": 140496748,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "Amazon.com will host its annual Prime Day\u00a0sales event from June 23 to June 26 after launching the event in July for the \u200cpast five years, citing major holidays and sporting events as factors in its decision.  Prime Day \u200cis one of Amazon's biggest sales events of the year, and helped drive $24.1 billion in U.S. online spending in 2025 when \u200bit extended the event to four days from two, according to data from Adobe Analytics.  The e-commerce company considers U.S. and global events, religious holidays and bank holidays when choosing the dates for Prime Day each year.",
+      "url": "https://finnhub.io/api/news?id=a92d811f0f24ed473eaf42242d5a794309fb16d8a1ed4277a5ba15cb2c1d2856"
+    },
+    {
+      "category": "company",
+      "datetime": 1780376640,
+      "headline": "Mark Your Calendars: Amazon Announces Prime Day Event from June 23\u201326, with Millions of Exclusive Deals for Prime Members",
+      "id": 140496749,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "SEATTLE, June 02, 2026--Amazon (NASDAQ: AMZN) today announced that Prime Day returns from June 23 at 12:01 a.m. PDT through June 26, kicking off summer with millions of deals exclusively for Prime members. This year\u2019s event makes it easy to save on everything members need, from the season's biggest fashion trends and K-beauty favorites to summer of soccer essentials, patio furniture, and outdoor entertaining\u2014plus savings on fresh groceries and back-to-school essentials, all with fast, free deliv",
+      "url": "https://finnhub.io/api/news?id=18e1a9817b9188effb5310fa35b8639545cc2cb210a996e4c932a98033a55424"
+    },
+    {
+      "category": "company",
+      "datetime": 1780376400,
+      "headline": "Amazon sets the stage for its first Prime Day in June since 2021",
+      "id": 140496750,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "Amazon announces dates for its annual Prime Day summer savings event.",
+      "url": "https://finnhub.io/api/news?id=388c22ab140b9b5077a99c69fd20a9d48aa63e10602fea81cc216370cb822f63"
+    },
+    {
+      "category": "company",
+      "datetime": 1780374598,
+      "headline": "Jim Cramer Discusses Amazon.com (AMZN) & Rocket Explosion",
+      "id": 140496751,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "We recently published Jim Cramer Warned About Market Manipulation & Discussed These 22 Stocks. Amazon.com, Inc. (NASDAQ:AMZN) is one of the stocks discussed by Jim Cramer. eCommerce and cloud computing giant Amazon.com, Inc. (NASDAQ:AMZN)\u2019s shares are up by 32% over the past year and by 19% year-to-date. Bank of America discussed the firm on May [\u2026]",
+      "url": "https://finnhub.io/api/news?id=ad973e28daa79ae0c39c6388ebfae43b22444f56247afb27a03a6e8091f6494d"
+    },
+    {
+      "category": "company",
+      "datetime": 1780366142,
+      "headline": "Blue Origin launch pad repairs could take 'serious time', NASA chief tells CNBC",
+      "id": 140496199,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "Damage to a Blue Origin launch pad from the spectacular explosion of the company's giant New Glenn rocket \u200cduring a test firing of its engines last week will \"take \u200csome serious time\" to repair, NASA Administrator Jared Isaacman told CNBC on Monday.  The mishap came \u2060at a critical time for the Blue Origin rocket and Amazon satellite ventures of billionaire Jeff Bezos, who is seeking to compete on a more \u200bequal footing \u200bwith Elon Musk's SpaceX, the world's \u200bleading private space launch service.  Company \u200cand industry sources said over the weekend that the explosion had left the launch pad \"practically destroyed\" and in need of repairs that engineers expect will disrupt operations for at least six months.",
+      "url": "https://finnhub.io/api/news?id=d1ffc5164d2af3a0e61520b2717be63957b5b1ce5039022096ca86885d069654"
+    },
+    {
+      "category": "company",
+      "datetime": 1780362180,
+      "headline": "TSMC executive drops blunt message on AI chip\u2019s next frontier",
+      "id": 140495484,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "Wall Street has spent years pricing AI chip stocks on one core assumption: raw computing power wins. More transistors, more speed, more performance. That was the race, and investors bid up names including Nvidia (NVDA), Taiwan Semiconductor Manufacturing Company (TSM), and Broadcom (AVGO) ...",
+      "url": "https://finnhub.io/api/news?id=a529cfbde4489d965648b197484e1491944c43d222501972382afe2fd1dcccb3"
+    },
+    {
+      "category": "company",
+      "datetime": 1780360620,
+      "headline": "Bank of America reiterates Amazon stock forecast at tipping point",
+      "id": 140495487,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "Amazon (AMZN) stock is up about 14.63% year to date, at the time of writing, Monday afternoon, June 1. Meanwhile, the SPDR S&P 500 Index (SPY) is up about 11.01% in the same period. And while Amazon has just slightly outpaced the S&P 500, it has also outpaced all but two Magnificent 7 ...",
+      "url": "https://finnhub.io/api/news?id=3d6b65a46fa1e02221f3cf46a7aac3f8b9ba3fc527b7e1ee9c6bf9d4adaefa27"
+    },
+    {
+      "category": "company",
+      "datetime": 1780359122,
+      "headline": "Amazon: The Stock Is Missing The AI Wave, But The Business Isn't",
+      "id": 140496356,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2175391938/image_2175391938.jpg?io=getty-c-w1536",
+      "related": "AMZN",
+      "source": "SeekingAlpha",
+      "summary": "Amazon (AMZN) investment outlook: AWS and AI capex fuel growth, Amazon Ads boosts margins, and efficiency gains support returns. See more here.",
+      "url": "https://finnhub.io/api/news?id=d5ded06b54505936349a2977e5b0ea31fae1b8e2e7d043302c619e480f12db8a"
+    },
+    {
+      "category": "company",
+      "datetime": 1780356420,
+      "headline": "Mediator finds Amazon caused first-contract impasse at YVR2, recommends binding path to agreement",
+      "id": 140494576,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "An independent mediator has found that Amazon was responsible for the breakdown of first-contract bargaining at YVR2, its only unionized fulfillment centre in British Columbia. The mediator sided with the union and recommended the dispute be resolved through binding mediation-arbitration.",
+      "url": "https://finnhub.io/api/news?id=d47faa5bd99cc15f106b541b57d13ac350dccfca0e4403e3aa352c7cdf607b7f"
+    },
+    {
+      "category": "company",
+      "datetime": 1780354876,
+      "headline": "Amazon (AMZN) Ranks Among Stocks Most Bought by Hedge Funds in Q1 2026",
+      "id": 140494577,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "Amazon.com, Inc. (NASDAQ:AMZN) is one of the 12 Stocks Most Bought by Hedge Funds in Q1 2026. On May 27, UBS reiterated its Buy rating on Amazon.com, Inc. (NASDAQ:AMZN) with a price target of $333. The research firm updated its methodology for estimating AWS segment revenue after previously overestimating its Q1 2026 forecast. UBS now [\u2026]",
+      "url": "https://finnhub.io/api/news?id=3132f918e7e34eec310fa7dbcf5a02bb6eefc01c671c338c02729fc0335f688a"
+    },
+    {
+      "category": "company",
+      "datetime": 1780351573,
+      "headline": "Jeff Bezos, Jensen Huang and SoftBank CEO Spotlight AI\u2019s Biggest Debates",
+      "id": 140494578,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "AI-linked firms raised about $380 billion in 2026. Bezos, Huang, and Son frame the bubble versus productivity debate.",
+      "url": "https://finnhub.io/api/news?id=2e4949d080b928b0158576e3b0faa245a2265101fc0cda612f34a81ce0af0784"
+    },
+    {
+      "category": "company",
+      "datetime": 1780351403,
+      "headline": "JCPenney Parent Catalyst Brands Deploys Humanoid Robots in Nevada Warehouse",
+      "id": 140494579,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "The rare commercial humanoid deployment will target repetitive sorting and packing work at a Reno facility that saw a $40 million upgrade in 2024.",
+      "url": "https://finnhub.io/api/news?id=3c05e21293d94657887d0d1e439dd1869eae5998effc423ffa3e7756fd52cc8d"
+    },
+    {
+      "category": "company",
+      "datetime": 1780349918,
+      "headline": "Tracking Bridgewater Associates 13F Portfolio - Q1 2026 Update",
+      "id": 140495304,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1094755252/image_1094755252.jpg?io=getty-c-w1536",
+      "related": "AMZN",
+      "source": "SeekingAlpha",
+      "summary": "Bridgewater\u00e2\u0080\u0099s Q1 2026 13F: tech/semis conviction with new TSM stake, boosts to AMZN/NVDA, and big exits (CRM, ADBE). See more here.",
+      "url": "https://finnhub.io/api/news?id=9fb79b38c52236119fcd20f1b7748c3494212dd0887da6baec1a7c9652aa7714"
+    },
+    {
+      "category": "company",
+      "datetime": 1780348995,
+      "headline": "Stock Market Today, June 1: CoreWeave Surges on Nvidia Vera Rubin NVL72 Deployment",
+      "id": 140493203,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "On June 1, 2026, CoreWeave\u2019s industry-first rollout of Nvidia\u2019s Vera Rubin NVL72 sharpened focus on its AI data center ambitions.",
+      "url": "https://finnhub.io/api/news?id=bd54c46050b97d7286a260a24b1d923c6028b5ea4b4894f69d5cb461b6e71996"
+    },
+    {
+      "category": "company",
+      "datetime": 1780348800,
+      "headline": "3 Trillion-Dollar AI Stocks to Buy Now, According to Wall Street",
+      "id": 140493204,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "The valuations of artificial intelligence (AI) companies are surging, but their growth is more than just hype.",
+      "url": "https://finnhub.io/api/news?id=30c74f2baf87637b60226014aeaa304da1f22f759991a68fa72ea2c97867ebef"
+    },
+    {
+      "category": "company",
+      "datetime": 1780348061,
+      "headline": "Amazon.com, Inc. (AMZN): The Best Stock in the Jeff Bezos Stock Portfolio",
+      "id": 140493227,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "We just covered the Jeff Bezos Stock Portfolio: Top 10 Stock Picks and Amazon.com, Inc. (NASDAQ:AMZN) ranks 1st on this list. Jeff Bezos\u2019s relationship with Amazon.com, Inc. (NASDAQ:AMZN) is foundational; he is the architect, founder, and long-time cultural leader of the global e-commerce and cloud computing titan. Bezos started the company in 1994 as an [\u2026]",
+      "url": "https://finnhub.io/api/news?id=0b08f7c4090df119398e6b5ad833e5b55256c22bbe8607323b254b74b81df0a3"
+    },
+    {
+      "category": "company",
+      "datetime": 1780346700,
+      "headline": "Credo Technology Stock Sinks. Why 157% Revenue Growth Isn\u2019t Enough for the AI Era.",
+      "id": 140493228,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "Credo Technology stock declines despite better-than-expected earnings. The stock has rallied 157% since bottoming at the end of March.",
+      "url": "https://finnhub.io/api/news?id=b76fbda14bc1db056af92e42b8ab5c87f1d74c3c2b30d921a8bd912d00edba4e"
+    },
+    {
+      "category": "company",
+      "datetime": 1780346266,
+      "headline": "Stock Market Today: Dow Up As Trump Says This On Iran; AI Stocks Pop On Anthropic IPO Move (Live Coverage)",
+      "id": 140493229,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "The Dow Jones index fought back Monday after President Trump spoke on Iran. Nvidia popped. Warren Buffett's Berkshire boosted a stock.",
+      "url": "https://finnhub.io/api/news?id=781a497065c55092887a6ececb9d71c392bf5046823dbad989eb76f9f9b60acb"
+    },
+    {
+      "category": "company",
+      "datetime": 1780344411,
+      "headline": "HPE fast forwards to 2028 goals on robust AI demand, shares surge 36%",
+      "id": 140493230,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "Hewlett Packard Enterprise posted record second-quarter results on Monday, prompting it to accelerate its long-term financial goals by two years, as expansion \u200cof AI data centers boosts demand, sending its shares up 36% in extended trading.  HPE, \u200cwhich competes with Dell and Super Micro Computer, is benefiting as customers increasingly buy its servers and networking products \u200bto power AI applications such as ChatGPT.  U.S. tech giants including Alphabet and Amazon plan to spend over $700 billion on AI infrastructure this year, which would bolster demand for suppliers such as HPE.",
+      "url": "https://finnhub.io/api/news?id=bc71611b1aabea1e01f07337f5b45439e6450dbafa63673a91a1d69e35cef654"
+    },
+    {
+      "category": "company",
+      "datetime": 1780343580,
+      "headline": "Anthropic Files Confidential IPO Draft as AI Valuation Nears $1 Trillion",
+      "id": 140491283,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AMZN",
+      "source": "Yahoo",
+      "summary": "Anthropic has taken its first formal step toward a public listing, confidentially submitting a draft S-1 registrati...",
+      "url": "https://finnhub.io/api/news?id=bad08f50d4d3ef1222d9fc34867b9199ec52bdc86bcaee4e531be49ad5e3439f"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "quote": {
+    "c": 459.97,
+    "d": 13.2,
+    "dp": 2.9545,
+    "h": 466.05,
+    "l": 442.22,
+    "o": 450.09,
+    "pc": 446.77,
+    "t": 1780344000
+  },
+  "news": [
+    {
+      "category": "company",
+      "datetime": 1780362259,
+      "headline": "Dow Jones Futures Slide: Broadcom, Micron, Nvidia, Sandisk, Tesla Are Big Movers; AI Stock Credo Plunges On Earnings",
+      "id": 140495483,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "Dow Jones Futures: Broadcom, Micron, Nvidia and Sandisk were big winners Monday. Credo plunged on earnings late.",
+      "url": "https://finnhub.io/api/news?id=f7c0c69454abb636ba671057e900429c40f965e5c22da048d25d0a4a64256638"
+    },
+    {
+      "category": "company",
+      "datetime": 1780362180,
+      "headline": "TSMC executive drops blunt message on AI chip\u2019s next frontier",
+      "id": 140495484,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "Wall Street has spent years pricing AI chip stocks on one core assumption: raw computing power wins. More transistors, more speed, more performance. That was the race, and investors bid up names including Nvidia (NVDA), Taiwan Semiconductor Manufacturing Company (TSM), and Broadcom (AVGO) ...",
+      "url": "https://finnhub.io/api/news?id=a529cfbde4489d965648b197484e1491944c43d222501972382afe2fd1dcccb3"
+    },
+    {
+      "category": "company",
+      "datetime": 1780361400,
+      "headline": "These Linked Stocks Are 2 of the Best Ways to Play the Ongoing AI Boom",
+      "id": 140495485,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "Alphabet and Broadcom are two great ways to play the AI boom.",
+      "url": "https://finnhub.io/api/news?id=21a994d8159f00585acc9bcd3b432e25130b1993e880d506cf36afe668e00286"
+    },
+    {
+      "category": "company",
+      "datetime": 1780359661,
+      "headline": "Why Broadcom (AVGO) Is Up 11.1% After New AI Data Center And Edge Network Platforms",
+      "id": 140495511,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "In late May 2026, Broadcom and partners including Samsung, FuriosaAI, Applied Materials, LSEG, and telecom operators announced new Wi\u2011Fi 8, 50G PON, FWA, and AI accelerator platforms that tie Broadcom\u2019s chips deeper into both AI data centers and next\u2011generation broadband networks. These moves highlight how Broadcom is trying to link its fast\u2011growing AI semiconductor franchise with \u201cedge AI\u201d in homes and enterprises, potentially widening the company\u2019s role across the full path from cloud to...",
+      "url": "https://finnhub.io/api/news?id=bc8a2d1048e158d19233ea5f0adb60d3210c34f3bae8e297cf92febab4bf0197"
+    },
+    {
+      "category": "company",
+      "datetime": 1780355073,
+      "headline": "Susquehanna and UBS Raise Broadcom (AVGO) Price Target Ahead of Results",
+      "id": 140494585,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "Broadcom Inc. (NASDAQ:AVGO) is one of the 12 Stocks Most Bought by Hedge Funds in Q1 2026. On May 28, Susquehanna analyst Christopher Rolland increased the firm\u2019s price target on Broadcom Inc. (NASDAQ:AVGO) from $450 to $490 and maintained a Positive rating on the stock. The research firm updated its model ahead of the company\u2019s [\u2026]",
+      "url": "https://finnhub.io/api/news?id=ee774b6d40ac30dd8629d9a2b88f10f1e6b6fba71fb9203427e4838f8fbdc489"
+    },
+    {
+      "category": "company",
+      "datetime": 1780349930,
+      "headline": "Dow Jones Futures: Broadcom, Micron, Nvidia, Sandisk, Tesla Are Big Movers; AI Stock Credo Plunges On Earnings",
+      "id": 140493201,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "Dow Jones Futures: Broadcom, Micron, Nvidia and Sandisk were big winners Monday. Credo plunged on earnings late.",
+      "url": "https://finnhub.io/api/news?id=0c24c1221187f6c33058e8507e8abd8839a3badc97dd7972e420c8816795e239"
+    },
+    {
+      "category": "company",
+      "datetime": 1780349918,
+      "headline": "Tracking Bridgewater Associates 13F Portfolio - Q1 2026 Update",
+      "id": 140495304,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1094755252/image_1094755252.jpg?io=getty-c-w1536",
+      "related": "AVGO",
+      "source": "SeekingAlpha",
+      "summary": "Bridgewater\u00e2\u0080\u0099s Q1 2026 13F: tech/semis conviction with new TSM stake, boosts to AMZN/NVDA, and big exits (CRM, ADBE). See more here.",
+      "url": "https://finnhub.io/api/news?id=9fb79b38c52236119fcd20f1b7748c3494212dd0887da6baec1a7c9652aa7714"
+    },
+    {
+      "category": "company",
+      "datetime": 1780344300,
+      "headline": "Broadcom Connects the AI Edge with Comprehensive Multi-Gig Broadband and Wi-Fi 8 Innovations",
+      "id": 140493239,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "End-to-end broadband and wireless connectivity with embedded NPU deliver responsive and agile intelligence at the edge with enhanced privacy protection and securityPALO ALTO, Calif., June 01, 2026 (GLOBE NEWSWIRE) -- Broadcom Inc. (NASDAQ: AVGO), a global technology leader that designs, develops, and supplies semiconductor and infrastructure software solutions, today showcased its broadband Edge AI portfolio. The lineup of AI-ready broadband solutions includes a 50G PON gateway SoC, a comprehens",
+      "url": "https://finnhub.io/api/news?id=e2e5e0e60fd8ccb6cbca4860223ff730d16a2a6e55bb1b61b01b84fa523b3e92"
+    },
+    {
+      "category": "company",
+      "datetime": 1780344220,
+      "headline": "Update: S&P 500 Companies' Earnings Grow 28% as Reporting Season Approaches End, Oppenheimer Says",
+      "id": 140493240,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "(Article updated to include consolidated revenue figures in the fourth paragraph, as confirmed by Op",
+      "url": "https://finnhub.io/api/news?id=cdffdf1d5b3291803bb7e26652e30c377f3b8cbb8af8a4a9732ed3833a58d387"
+    },
+    {
+      "category": "company",
+      "datetime": 1780343580,
+      "headline": "Anthropic Files Confidential IPO Draft as AI Valuation Nears $1 Trillion",
+      "id": 140491283,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "Anthropic has taken its first formal step toward a public listing, confidentially submitting a draft S-1 registrati...",
+      "url": "https://finnhub.io/api/news?id=bad08f50d4d3ef1222d9fc34867b9199ec52bdc86bcaee4e531be49ad5e3439f"
+    },
+    {
+      "category": "company",
+      "datetime": 1780337903,
+      "headline": "Equities Mostly Rise Intraday Amid Nvidia Rally; Oil Jumps",
+      "id": 140491278,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "US benchmark equity indexes were mostly higher intraday as Nvidia (NVDA) helped lift the technology",
+      "url": "https://finnhub.io/api/news?id=c54e10425589275705d34d3cc4c0a77790919f3f275190b10f063f549a5e346d"
+    },
+    {
+      "category": "company",
+      "datetime": 1780337075,
+      "headline": "Is Broadcom Stock a Buy Ahead of Its Q2 Earnings Report After Market Close on Wednesday?",
+      "id": 140491295,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "The semiconductor maker's spectacular ascent over the past year begs the question: Is the stock a buy now?",
+      "url": "https://finnhub.io/api/news?id=58790b92020c95cab836a650212df027b4a695efe60c094c0499d8479ae5452d"
+    },
+    {
+      "category": "company",
+      "datetime": 1780335781,
+      "headline": "Jim Cramer on CrowdStrike: \u201cThe Company\u2019s Been a Bulwark Against Cyber Criminals\u201d",
+      "id": 140489702,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "CrowdStrike Holdings, Inc. (NASDAQ:CRWD) was among the stocks Jim Cramer was focused on, as he discussed Mad Money\u2019s latest game plan for the week. Cramer noted the stock hitting its all-time high, as he said: After the close, club members beware, we have both Broadcom and CrowdStrike, two very important positions for the Trust. Both [\u2026]",
+      "url": "https://finnhub.io/api/news?id=f526b4d3bbb490159724dd02c6b375205279cae0dafadda93e7d3dbb66653173"
+    },
+    {
+      "category": "company",
+      "datetime": 1780335779,
+      "headline": "Jim Cramer on Broadcom: \u201cI Think It\u2019d Be Delivering a Good One\u201d",
+      "id": 140489703,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "Broadcom Inc. (NASDAQ:AVGO) was among the stocks Jim Cramer was focused on, as he discussed Mad Money\u2019s latest game plan for the week. Cramer mentioned the stock during his game plan, as he remarked: After the close, club members beware, we have both Broadcom and CrowdStrike, two very important positions for the Trust. Both hit [\u2026]",
+      "url": "https://finnhub.io/api/news?id=34b14ff0c62634034b4ce23b9ad33cb9c147ca3604fb3753b9d5067c94b37fda"
+    },
+    {
+      "category": "company",
+      "datetime": 1780335664,
+      "headline": "Google, Nvidia Lead Stocks To Watch On This Curated List. See The Full Lineup Here.",
+      "id": 140489653,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "As the market indexes ride a robust power trend, Nvidia, Google, Eli Lilly and more lead this elite crop of stocks to watch.",
+      "url": "https://finnhub.io/api/news?id=06846c43c0137f296c9b88d111000df3b599a0f99616821690caf73c585bff17"
+    },
+    {
+      "category": "company",
+      "datetime": 1780332839,
+      "headline": "Broadcom Inc. (AVGO): One of the Premier Stocks to Buy Right Now According to AI",
+      "id": 140489705,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "We just covered the 10 Best Stocks to Buy Right Now According to AI and Broadcom Inc. (NASDAQ:AVGO) ranks 2nd on this list. Broadcom Inc. (NASDAQ:AVGO) is a diversified technology leader that designs, develops, and supplies a broad range of semiconductor and infrastructure software solutions. The company\u2019s semiconductor division focuses on complex digital and mixed-signal [\u2026]",
+      "url": "https://finnhub.io/api/news?id=54a7d9a4daafb82100ae6c10ed6333e983f1a154cb33291d924a963a8c7c350b"
+    },
+    {
+      "category": "company",
+      "datetime": 1780332795,
+      "headline": "Taiwan Semiconductor Manufacturing (TSM): One of the Best Stocks According to AI",
+      "id": 140489674,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "We just covered the 10 Best Stocks to Buy Right Now According to AI and Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) ranks 1st on this list. Taiwan Semiconductor Manufacturing Company Limited (NYSE:TSM) is the world\u2019s largest dedicated pure-play semiconductor foundry, serving as the essential manufacturing backbone for the global technology industry. Operating an advanced manufacturing [\u2026]",
+      "url": "https://finnhub.io/api/news?id=c34c15d45c5ac857c362c6f2f18828fe976db1d3411fe4e091be88ceaf869756"
+    },
+    {
+      "category": "company",
+      "datetime": 1780330331,
+      "headline": "S&P 500 Companies' Earnings Grow 28% as Reporting Season Approaches End, Oppenheimer Says",
+      "id": 140489707,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "S&P 500 companies' quarterly earnings growth held steady at nearly 28% compared with financials repo",
+      "url": "https://finnhub.io/api/news?id=a305d219fd549eac815154f8dbdfabc2ddd4cf26fa883f80723f51615897cae5"
+    },
+    {
+      "category": "company",
+      "datetime": 1780326907,
+      "headline": "Earnings Volatility Watch: 10 Stocks Set For Big Moves This Week, From Nuclear Power To Whiskey Maker",
+      "id": 140491736,
+      "image": "https://cdn.benzinga.com/files/images/story/2026/06/01/Crypto-Trader-Investor-Broker-Using-Smar.jpeg?width=2048&height=1536",
+      "related": "AVGO",
+      "source": "Benzinga",
+      "summary": "Mega-caps like Broadcom and Palo Alto grab the headlines, but Benzinga Pro data shows the biggest implied moves this week sit in a smaller cohort \u2014 from a new nuclear stock to a whiskey maker.",
+      "url": "https://finnhub.io/api/news?id=ac18495ce3b862660cfad4b94b3565f2b0ac310b90b820ae9bc13c686f6adc27"
+    },
+    {
+      "category": "company",
+      "datetime": 1780325700,
+      "headline": "Prediction: Broadcom's June 3 Earnings Report Will Matter More Than Any \"Magnificent Seven\" Stock This Quarter",
+      "id": 140487725,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "AVGO",
+      "source": "Yahoo",
+      "summary": "Broadcom's quarterly results and earnings calls are worth following for AI growth stock investors.",
+      "url": "https://finnhub.io/api/news?id=8061e9cf8ea4ceb04165815aa947cab921635e80a446d4be0f1290cba46ba431"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "quote": {
+    "c": 600.47,
+    "d": -32.04,
+    "dp": -5.0655,
+    "h": 635.7499,
+    "l": 599.53,
+    "o": 630.4,
+    "pc": 632.51,
+    "t": 1780344000
+  },
+  "news": [
+    {
+      "category": "company",
+      "datetime": 1780369993,
+      "headline": "A Look At Snap (SNAP) Valuation After Meta Hires Key Content Partnerships Executive",
+      "id": 140496200,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Snap (SNAP) has come under fresh scrutiny after Meta hired Jim Shepherd, the company\u2019s former senior director of global content partnerships, to lead creator and content initiatives for its growing wearables business. See our latest analysis for Snap. The latest 1-day share price return of 2.63% and 90-day share price return of 11.62% sit against a year-to-date share price decline of 27.92% and a 5-year total shareholder return decline of 90.45%. This points to short term momentum but a weak...",
+      "url": "https://finnhub.io/api/news?id=440d11a1d0d0c3d65fe4fc6902407bafaa2cbc4f63d53fb66df344c116c95ebb"
+    },
+    {
+      "category": "company",
+      "datetime": 1780368475,
+      "headline": "META Stock Still Trails Mag 7 Peers Even After New Subscriptions, Layoffs, Cloud Plans \u2014 Retail Sniffs Buying Opportunity",
+      "id": 140496201,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Meta shares fell sharply on Monday without a clear trigger, while retail sentiment moved up.",
+      "url": "https://finnhub.io/api/news?id=bd5cce3c4b10db4323ccdb9e058bdc1c7df216c4b77ad5e0f1c814e211e7a95c"
+    },
+    {
+      "category": "company",
+      "datetime": 1780362180,
+      "headline": "TSMC executive drops blunt message on AI chip\u2019s next frontier",
+      "id": 140495484,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Wall Street has spent years pricing AI chip stocks on one core assumption: raw computing power wins. More transistors, more speed, more performance. That was the race, and investors bid up names including Nvidia (NVDA), Taiwan Semiconductor Manufacturing Company (TSM), and Broadcom (AVGO) ...",
+      "url": "https://finnhub.io/api/news?id=a529cfbde4489d965648b197484e1491944c43d222501972382afe2fd1dcccb3"
+    },
+    {
+      "category": "company",
+      "datetime": 1780360620,
+      "headline": "Bank of America reiterates Amazon stock forecast at tipping point",
+      "id": 140495487,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Amazon (AMZN) stock is up about 14.63% year to date, at the time of writing, Monday afternoon, June 1. Meanwhile, the SPDR S&P 500 Index (SPY) is up about 11.01% in the same period. And while Amazon has just slightly outpaced the S&P 500, it has also outpaced all but two Magnificent 7 ...",
+      "url": "https://finnhub.io/api/news?id=3d6b65a46fa1e02221f3cf46a7aac3f8b9ba3fc527b7e1ee9c6bf9d4adaefa27"
+    },
+    {
+      "category": "company",
+      "datetime": 1780355001,
+      "headline": "META Valuation Remains Attractive, Says Wolfe",
+      "id": 140494591,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Meta Platforms, Inc. (NASDAQ:META) is one of the 12 Stocks Most Bought by Hedge Funds in Q1 2026. On May 21, Wolfe Research reiterated its Outperform rating on Meta Platforms, Inc. (NASDAQ:META) with a price target of $800, pointing to an attractive valuation despite worries about the company\u2019s capital expenditure levels. Wolfe Research pointed out [\u2026]",
+      "url": "https://finnhub.io/api/news?id=82402912561fc282a52f8fa57d81be6e8d314092ff71dc9e8a93b863868668af"
+    },
+    {
+      "category": "company",
+      "datetime": 1780349918,
+      "headline": "Tracking Bridgewater Associates 13F Portfolio - Q1 2026 Update",
+      "id": 140495304,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1094755252/image_1094755252.jpg?io=getty-c-w1536",
+      "related": "META",
+      "source": "SeekingAlpha",
+      "summary": "Bridgewater\u00e2\u0080\u0099s Q1 2026 13F: tech/semis conviction with new TSM stake, boosts to AMZN/NVDA, and big exits (CRM, ADBE). See more here.",
+      "url": "https://finnhub.io/api/news?id=9fb79b38c52236119fcd20f1b7748c3494212dd0887da6baec1a7c9652aa7714"
+    },
+    {
+      "category": "company",
+      "datetime": 1780348800,
+      "headline": "3 Trillion-Dollar AI Stocks to Buy Now, According to Wall Street",
+      "id": 140493204,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "The valuations of artificial intelligence (AI) companies are surging, but their growth is more than just hype.",
+      "url": "https://finnhub.io/api/news?id=30c74f2baf87637b60226014aeaa304da1f22f759991a68fa72ea2c97867ebef"
+    },
+    {
+      "category": "company",
+      "datetime": 1780346700,
+      "headline": "Credo Technology Stock Sinks. Why 157% Revenue Growth Isn\u2019t Enough for the AI Era.",
+      "id": 140493228,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Credo Technology stock declines despite better-than-expected earnings. The stock has rallied 157% since bottoming at the end of March.",
+      "url": "https://finnhub.io/api/news?id=b76fbda14bc1db056af92e42b8ab5c87f1d74c3c2b30d921a8bd912d00edba4e"
+    },
+    {
+      "category": "company",
+      "datetime": 1780345908,
+      "headline": "Meta Is Launching Chatbot Subscriptions. META Stock Bulls Need a Way to Justify AI Costs.",
+      "id": 140496202,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Meta\u2019s AI ambitions are getting expensive, and now Zuckerberg is betting chatbot subscriptions and layoffs to convince that AI spending spree will eventually pay off.",
+      "url": "https://finnhub.io/api/news?id=74081fb4e85842821846782cfd83b63f17897d30a3f9a3cf737f92c8bd02448d"
+    },
+    {
+      "category": "company",
+      "datetime": 1780343368,
+      "headline": "Nvidia\u2019s AI Monopoly Could Push It to Become a $10 Trillion Company by 2030",
+      "id": 140495499,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "The biggest AI winner could become much bigger as trillions of dollars flow into AI infrastructure over the next decade.",
+      "url": "https://finnhub.io/api/news?id=4e926e3de594330ac2b2b08c4f9e603a31e8411820991098d091f4eab797a70c"
+    },
+    {
+      "category": "company",
+      "datetime": 1780342440,
+      "headline": "Waypoint Bio Raises $20M Series A Led by Amplify Partners to Advance AI-Designed Cell Therapies Toward the Clinic",
+      "id": 140491302,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "NEW YORK, June 01, 2026--Waypoint Bio, an AI-native biotech company using spatial biology to design next-generation CAR T therapies for solid tumors, announced today that it closed a $20M Series A financing round.",
+      "url": "https://finnhub.io/api/news?id=003587c57959ea9b0e92d235440a839eb8cb807a919a9d6fdaafd834716edc54"
+    },
+    {
+      "category": "company",
+      "datetime": 1780341648,
+      "headline": "Meta hires Snap director of global content partnerships",
+      "id": 140494592,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Jim Shepherd, who oversaw Snap\u2019s celebrity relations and editorial strategy, will now help with Meta\u2019s artificial intelligence device push, per The Hollywood Reporter.",
+      "url": "https://finnhub.io/api/news?id=e97ad9be684ad7d62e56febc65e4a9d8a928c2ab7e7d4011b60abc1963fed278"
+    },
+    {
+      "category": "company",
+      "datetime": 1780341347,
+      "headline": "Applied Optoelectronics Is Up 439% in 2026: Is It Outperforming Other Optics Stocks Like Lumentum and Coherent?",
+      "id": 140491260,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Shares of Applied Optoelectronics (NASDAQ:AAOI) are up 20% in midday trading to around $190, snapping back hard from a Friday close of $158.41. The single-session pop lifts the stock\u2019s year-to-date (YTD) 2026 gain to an impressive 439%. Meanwhile, Lumentum (NASDAQ:LITE) stock is up 7% to $914 and Coherent (NYSE:COHR) stock is roughly flat near $363. ... Applied Optoelectronics Is Up 439% in 2026: Is It Outperforming Other Optics Stocks Like Lumentum and Coherent?",
+      "url": "https://finnhub.io/api/news?id=37d96011d7a1a64b27ca545683588d60421e88a9334cae6982d4f6b3eafc7d0e"
+    },
+    {
+      "category": "company",
+      "datetime": 1780338531,
+      "headline": "CoreWeave-Tied Data Center Seeks $850 Million Junk Bond Sale",
+      "id": 140491277,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "(Bloomberg) -- A data center tied to CoreWeave Inc. is set to get funding from a $850 million junk-bond sale by Elk Grove Village Property LLC, which joins a wave of high-yield issuers tapping debt markets to fund artificial intelligence infrastructure.Most Read from BloombergUS Says Deals With Iran for Safe Hormuz Transit Are ProhibitedBerkshire Hathaway to Buy Taylor Morrison for $6.8 BillionA Rare \u2018Super\u2019 El Ni\u00f1o Is Looking More Likely. Here\u2019s What to ExpectRussia Finance Officials Tell Putin",
+      "url": "https://finnhub.io/api/news?id=7c519a5a977e3f9e65b9036a7591afe9b3a4b749f92150097446ea68352b65b0"
+    },
+    {
+      "category": "company",
+      "datetime": 1780332142,
+      "headline": "Zigging when most are zagging, ex-Meta CTO raises $250M climate fund",
+      "id": 140489713,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Mike Schroepfer's Gigascale Capital has raised a large fund to back founders building climate-friendly solutions for the world's energy and material shortages.",
+      "url": "https://finnhub.io/api/news?id=7aa59fff40f19c1b91b4f30ee20ee6b44ce5c9926da14a28d68ae12d542ec5ee"
+    },
+    {
+      "category": "company",
+      "datetime": 1780330984,
+      "headline": "This Smart\u2011Money Legend Won Big on Intel. The Rest of His Portfolio Might Be Even More Revealing",
+      "id": 140489714,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "The meteoric rise in Intel (NASDAQ:INTC) stock has arguably been the biggest story of the past year. Now up 486% in a year, questions linger as to whether the heated semi name is worth pursuing, especially as its market cap starts swelling. Another doubling would send Intel right above that $1 trillion mark. Given the ... This Smart\u2011Money Legend Won Big on Intel. The Rest of His Portfolio Might Be Even More Revealing",
+      "url": "https://finnhub.io/api/news?id=d2c4436944781db6b7e53c6ce2d3d3af7087ee45d1e7c0ae21fabd7505b476c8"
+    },
+    {
+      "category": "company",
+      "datetime": 1780330800,
+      "headline": "Why Launching Subscription Services Could Be a Genius Move for Meta Platforms",
+      "id": 140489715,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "The social media giant recently announced the launch of new subscription options for its popular apps.",
+      "url": "https://finnhub.io/api/news?id=1b0d7b6fd7dc9b12b685d998aa65661e428c5990e8dac0e8b8e46f1b71430497"
+    },
+    {
+      "category": "company",
+      "datetime": 1780328820,
+      "headline": "The SpaceX IPO Could Signal the End of the Stock Market Rally",
+      "id": 140489697,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "The biggest IPO in history could force investors to make room for SpaceX just as the stock market rally faces new pressure.",
+      "url": "https://finnhub.io/api/news?id=f12aa1ebf0f29b5cf63c84350d1b1c641ca4aae54e47d3c4ee1db7044d589209"
+    },
+    {
+      "category": "company",
+      "datetime": 1780326600,
+      "headline": "Can Boot Barn Sustain Double-Digit E-Commerce Growth in Fiscal 2027?",
+      "id": 140489717,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "BOOT's digital strategy gains traction as e-commerce growth, AI initiatives and exclusive brand websites drive customer engagement.",
+      "url": "https://finnhub.io/api/news?id=9807c9c8b1537c9659541bbb55fec6e7a2650e2bdd486fb287533bb659d15ade"
+    },
+    {
+      "category": "company",
+      "datetime": 1780325700,
+      "headline": "Prediction: Broadcom's June 3 Earnings Report Will Matter More Than Any \"Magnificent Seven\" Stock This Quarter",
+      "id": 140487725,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "META",
+      "source": "Yahoo",
+      "summary": "Broadcom's quarterly results and earnings calls are worth following for AI growth stock investors.",
+      "url": "https://finnhub.io/api/news?id=8061e9cf8ea4ceb04165815aa947cab921635e80a446d4be0f1290cba46ba431"
+    }
+  ]
+}

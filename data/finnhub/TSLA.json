@@ -1,0 +1,234 @@
+{
+  "quote": {
+    "c": 415.88,
+    "d": -19.91,
+    "dp": -4.5687,
+    "h": 429.6,
+    "l": 415.43,
+    "o": 427.49,
+    "pc": 435.79,
+    "t": 1780344000
+  },
+  "news": [
+    {
+      "category": "company",
+      "datetime": 1780376377,
+      "headline": "Tesla Stock Dips On SpaceX Merger Fears \u2014 Retail Influencer Pitches Bull Case That Could Add $450B To Valuation",
+      "id": 140496752,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Tesla influencer AleXandra Merz said that a 50/50 SpaceX-Tesla merger could revalue Tesla from $1.6 trillion to $2.05 trillion.",
+      "url": "https://finnhub.io/api/news?id=303fef979322e2269182a4f9b5b192bf215920e8105fb3d982cadf4ce670d4ef"
+    },
+    {
+      "category": "company",
+      "datetime": 1780374464,
+      "headline": "Tesla Faces China FSD Lawsuit As Robotics Competition Tests Valuation",
+      "id": 140496734,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Tesla (NasdaqGS:TSLA) is facing a new class-action lawsuit in China alleging false advertising and consumer fraud related to its Full Self-Driving feature. The case challenges how Tesla markets FSD in one of its most important international markets and could influence regulatory scrutiny and consumer sentiment. At the same time, OpenAI, led by Sam Altman, has launched a dedicated robotics division focused on humanoid robots, while Nvidia is accelerating its own robotics efforts. These moves...",
+      "url": "https://finnhub.io/api/news?id=d707711f4bd908bfacbfca97bca20e7f186d806a4e6955c3bb893974056211f8"
+    },
+    {
+      "category": "company",
+      "datetime": 1780366620,
+      "headline": "Rivian just achieved something Tesla has long dominated",
+      "id": 140496203,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Tesla (TSLA) has developed one of the most important advantages in the electric vehicle (EV) industry over the years. The corporation doesn\u2019t only move a lot of EVs. It has also been a benchmark for maximizing the driving range from every kilowatt-hour of battery capacity. It matters to drivers who ...",
+      "url": "https://finnhub.io/api/news?id=2ce2e472be48c8c73344de4f5d87fe056c04bb67cbece9bb1c543de7c0537b94"
+    },
+    {
+      "category": "company",
+      "datetime": 1780363583,
+      "headline": "Dow, S&P 500, Nasdaq Futures Slip After Record Rally As US-Iran War Confusion Eclipses AI Gains: TSLA, BB, META, HPE, NVDA Stocks In Focus",
+      "id": 140495475,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "U.S. President Donald Trump said on Monday in a post on Truth Social that \u201cTalks are continuing, at a rapid pace, with the Islamic Republic of Iran,\u201d although media reports indicate that Iran has hit the brakes on negotiations.",
+      "url": "https://finnhub.io/api/news?id=eda4720405fe23651027f3b8e514b7af78045b6bf2c98d86ea707aef3e9ee245"
+    },
+    {
+      "category": "company",
+      "datetime": 1780363153,
+      "headline": "Short Seller Andrew Left Found Guilty of Securities Fraud",
+      "id": 140495478,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "(Bloomberg) -- Andrew Left, one of the world\u2019s most prominent short sellers, was found guilty of securities fraud by a federal jury after a landmark trial that scrutinized his use of social media to move the price of stocks.Most Read from BloombergRussia Finance Officials Tell Putin War Spending Is UnaffordableUS Says Deals With Iran for Safe Hormuz Transit Are ProhibitedBerkshire Hathaway to Buy Taylor Morrison for $6.8 BillionStocks Rise on Trump\u2019s Iran Remarks, AI Optimism: Markets WrapA Rare",
+      "url": "https://finnhub.io/api/news?id=ffc1b71339c74af10e0c598c898838b7948c35590466260096c402c9667aa83e"
+    },
+    {
+      "category": "company",
+      "datetime": 1780362259,
+      "headline": "Dow Jones Futures Slide: Broadcom, Micron, Nvidia, Sandisk, Tesla Are Big Movers; AI Stock Credo Plunges On Earnings",
+      "id": 140495483,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Dow Jones Futures: Broadcom, Micron, Nvidia and Sandisk were big winners Monday. Credo plunged on earnings late.",
+      "url": "https://finnhub.io/api/news?id=f7c0c69454abb636ba671057e900429c40f965e5c22da048d25d0a4a64256638"
+    },
+    {
+      "category": "company",
+      "datetime": 1780360620,
+      "headline": "Bank of America reiterates Amazon stock forecast at tipping point",
+      "id": 140495487,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Amazon (AMZN) stock is up about 14.63% year to date, at the time of writing, Monday afternoon, June 1. Meanwhile, the SPDR S&P 500 Index (SPY) is up about 11.01% in the same period. And while Amazon has just slightly outpaced the S&P 500, it has also outpaced all but two Magnificent 7 ...",
+      "url": "https://finnhub.io/api/news?id=3d6b65a46fa1e02221f3cf46a7aac3f8b9ba3fc527b7e1ee9c6bf9d4adaefa27"
+    },
+    {
+      "category": "company",
+      "datetime": 1780359153,
+      "headline": "TSLA Stock Weakens As Elon Musk\u2019s Optimus Faces New Challengers",
+      "id": 140495490,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Over the weekend, OpenAI CEO Sam Altman announced the launch of a dedicated OpenAI Robotics division, hinting at a new rival for Tesla\u2019s own Optimus.",
+      "url": "https://finnhub.io/api/news?id=4cfa624447c4004a6691418f87c5a4f670875e4d5450be1a1109bb5b91704707"
+    },
+    {
+      "category": "company",
+      "datetime": 1780351274,
+      "headline": "Tesla Reclaims No. 1 Position In Global Battery EV Race",
+      "id": 140494593,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Counterpoint Research data showed a changing competitive landscape in the global battery electric vehicle (BEV) market during the first quarter of 2026, with Tesla, Inc. reclaiming the top spot even as overall industry growth remained modest and demand weakened in...",
+      "url": "https://finnhub.io/api/news?id=5791edc15ab3e0d04b01023c08b9213abad29028daa14b7d31dc01ad92169db3"
+    },
+    {
+      "category": "company",
+      "datetime": 1780349930,
+      "headline": "Dow Jones Futures: Broadcom, Micron, Nvidia, Sandisk, Tesla Are Big Movers; AI Stock Credo Plunges On Earnings",
+      "id": 140493201,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Dow Jones Futures: Broadcom, Micron, Nvidia and Sandisk were big winners Monday. Credo plunged on earnings late.",
+      "url": "https://finnhub.io/api/news?id=0c24c1221187f6c33058e8507e8abd8839a3badc97dd7972e420c8816795e239"
+    },
+    {
+      "category": "company",
+      "datetime": 1780348800,
+      "headline": "3 Trillion-Dollar AI Stocks to Buy Now, According to Wall Street",
+      "id": 140493204,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "The valuations of artificial intelligence (AI) companies are surging, but their growth is more than just hype.",
+      "url": "https://finnhub.io/api/news?id=30c74f2baf87637b60226014aeaa304da1f22f759991a68fa72ea2c97867ebef"
+    },
+    {
+      "category": "company",
+      "datetime": 1780348260,
+      "headline": "Nvidia Has a Robot Partner. It Isn\u2019t Tesla.",
+      "id": 140494568,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Over the weekend, at COMPUTEX 2026 in Taiwan, Nvidia announced plans to accelerate development of humanoid robots.  There will be an \u201copen humanoid robot reference design built on the Nvidia Isaac GR00T platform, combining a Unitree H2 Plus humanoid robot, Sharpa five-fingered hands for dexterous manipulation, NVIDIA Jetson Thor onboard compute for advanced reasoning and control,\u201d reads part of a news release.  Isaac GRoot is Nvidia\u2019s software for robot brains, running on Jetson Thor hardware.",
+      "url": "https://finnhub.io/api/news?id=8b559e8f0f30068e85808f748423e30525f9611e06013848367ad6eaf74cad9b"
+    },
+    {
+      "category": "company",
+      "datetime": 1780345951,
+      "headline": "Tesla's Optimus faces new threat as OpenAI enters robotics",
+      "id": 140493252,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Yahoo Finance Senior Autos Reporter Pras Subramanian joins Market Domination Overtime to discuss Tesla's (TSLA) new robotics competition in OpenAI (OPAI.PVT).",
+      "url": "https://finnhub.io/api/news?id=b6a1a1c02d208ccda36f6bb91c1c95135ddf242b00479ac177db7ba04b6952a7"
+    },
+    {
+      "category": "company",
+      "datetime": 1780341180,
+      "headline": "Tim Cook is just one of hundreds of CEOs quietly hitting the exits",
+      "id": 140491305,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "For many Americans, the term CEO is interchangeable with owner. When they think of people like Tesla CEO Elon Musk, they think of him as the owner of the company. But Musk, and all chief executives, are employees of the companies they work for. They are the highest profile, most well-paid ...",
+      "url": "https://finnhub.io/api/news?id=ff73f0a147635cb6b6d99e64482daa67d93e256e60987e0c054aafb208b77d86"
+    },
+    {
+      "category": "company",
+      "datetime": 1780337820,
+      "headline": "Former Tesla AI data trainers deliver crucial message on robotaxis",
+      "id": 140491306,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Tesla (TSLA) permabull Cathie Wood is all in on Full Self-Driving (Supervised), calling it the \"most impactful AI project out there\" while predicting that FSD would drive Tesla to a $2,000-per-share valuation by 2027. The Ark Invest CEO isn't the only one with high hopes for FSD. Tesla CEO Elon ...",
+      "url": "https://finnhub.io/api/news?id=2eaf2ef1770d50aeffd5f06b87d18b94d895e883061f2ad483dbee08a1b058a0"
+    },
+    {
+      "category": "company",
+      "datetime": 1780335314,
+      "headline": "NIO Soars 7% on Blowout May Deliveries Up 62%, Tesla Sinks 3% as China EV Battle Intensifies",
+      "id": 140489658,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Shares of Nio (NYSE:NIO) are up 7% in midday trading Monday, changing hands near $6 after the Chinese EV maker posted blowout May delivery numbers. The bounce extends a recovery year for Nio stock, which is up 69% over the past 12 months. Tesla (NASDAQ:TSLA) is moving the other direction, with Tesla stock down 3% ... NIO Soars 7% on Blowout May Deliveries Up 62%, Tesla Sinks 3% as China EV Battle Intensifies",
+      "url": "https://finnhub.io/api/news?id=5f95438162669f3002399f2f197cc6666b9c473ae1f1df04923e39c53f26ac03"
+    },
+    {
+      "category": "company",
+      "datetime": 1780335067,
+      "headline": "Elon Musk Says We Used To Find Medicine Like Random Sticks In The Woods \u2014 Now We Can Program It Like An App And Basically 'Cure Almost Anything'",
+      "id": 140491307,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Biotech is starting to sound less like medicine and more like software, and SpaceX and Tesla CEO Elon Musk thinks that shift could become one of the biggest technological opportunities ahead. \"There's probably a lot of opportunity in synthetic medicine....",
+      "url": "https://finnhub.io/api/news?id=6925568cb166e8a65efdd25ab05afd8e6375d97d3a6e279b6726055f52a7b2df"
+    },
+    {
+      "category": "company",
+      "datetime": 1780333268,
+      "headline": "Tesla faces fraud claims in Chinese capital over FSD marketing \u2013 report",
+      "id": 140489720,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "The first-instance hearing at the Daxing District People's Court centred on whether Tesla's FSD feature delivered the capabilities the company promoted.",
+      "url": "https://finnhub.io/api/news?id=a7226b274489f9e6def03fdd7648f493da3a8aa8a15d6d31c358089f9d3ba22a"
+    },
+    {
+      "category": "company",
+      "datetime": 1780333106,
+      "headline": "Houston, We Have A Problem: SpaceX, Tesla, And The xAI Bailout Nobody Voted On",
+      "id": 140492506,
+      "image": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2255285909/image_2255285909.jpg?io=getty-c-w1536",
+      "related": "TSLA",
+      "source": "SeekingAlpha",
+      "summary": "SpaceX\u00e2\u0080\u0099s $1.75T IPO bid after absorbing xAI raises red flags: big GAAP losses, cash burn, rich multiples, and Tesla spillover risk. Click for more on SPCX and TSLA.",
+      "url": "https://finnhub.io/api/news?id=2e659abd3ee78e1e32415c5a839998cc3af770d94a74721d7b1f9e994dbc8edc"
+    },
+    {
+      "category": "company",
+      "datetime": 1780330611,
+      "headline": "3 Cash-Burning Stocks That Concern Us",
+      "id": 140489721,
+      "image": "https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png",
+      "related": "TSLA",
+      "source": "Yahoo",
+      "summary": "Rapid spending isn\u2019t always a sign of progress. Some cash-burning businesses fail to convert investments into meaningful competitive advantages, leaving them vulnerable.",
+      "url": "https://finnhub.io/api/news?id=46d54fbf728e3f58c2aa59dd35d4258f9aee7494c9417b393d2be00db3b4d8f7"
+    }
+  ]
+}
