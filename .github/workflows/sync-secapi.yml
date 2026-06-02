@@ -1,0 +1,35 @@
+name: Sync SEC API
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "* * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests
+
+      - name: Sync SEC API data
+        run: python scripts/sync-secapi.py
+        env:
+          SEC_API_KEY: ${{ secrets.SEC_API_KEY }}
+
+      - name: Commit data
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data
+          git commit -m "Update SEC API data" || echo "No changes"
+          git push
