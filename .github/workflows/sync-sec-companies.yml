@@ -1,9 +1,9 @@
-name: Sync SEC API
+name: Sync SEC Companies
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 8 * * *"
 
 permissions:
   contents: write
@@ -19,17 +19,13 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: pip install requests
-
-      - name: Sync SEC API data
-        run: python scripts/sync-secapi.py
-        env:
-          SEC_API_KEY: ${{ secrets.SEC_API_KEY }}
+      - name: Sync SEC companies
+        run: python scripts/sync-sec-companies.py
 
       - name: Commit data
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add data
-          git commit -m "Update SEC API data" || echo "No changes"
+          git add data/company_tickers.json
+          git commit -m "Update SEC company list" || echo "No changes"
           git push
