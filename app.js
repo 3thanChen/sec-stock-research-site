@@ -1,4 +1,6 @@
+const LOCAL_TICKERS_URL = "./data/company_tickers.json";
 const SEC_TICKERS_URL = "https://www.sec.gov/files/company_tickers.json";
+const SEC_TICKERS_PROXY_URL = `https://api.allorigins.win/raw?url=${encodeURIComponent(SEC_TICKERS_URL)}`;
 const SEC_SUBMISSIONS_BASE = "https://data.sec.gov/submissions/CIK";
 
 let companies = [];
@@ -25,22 +27,43 @@ document.getElementById("clearSearch").addEventListener("click", () => {
   renderResults(companies.slice(0, 24));
 });
 
+async function fetchJson(url) {
+  const response = await fetch(url, { cache: "no-store" });
+  if (!response.ok) throw new Error(`${url} failed: ${response.status}`);
+  return response.json();
+}
+
+function normalizeCompanyData(data) {
+  const raw = Array.isArray(data) ? data : Object.values(data);
+  return raw.map(item => ({
+    cik: String(item.cik_str || item.cik || "").padStart(10, "0"),
+    ticker: String(item.ticker || "").toUpperCase(),
+    title: item.title || item.name || "Unknown Company",
+    exchange: item.exchange || item.exchangeLabel || "SEC reporting company"
+  })).filter(item => item.cik && item.ticker).sort((a, b) => a.ticker.localeCompare(b.ticker));
+}
+
 async function loadCompanies() {
-  try {
-    const response = await fetch(SEC_TICKERS_URL);
-    if (!response.ok) throw new Error("SEC company ticker file failed to load.");
-    const data = await response.json();
-    companies = Object.values(data).map(item => ({
-      cik: String(item.cik_str).padStart(10, "0"),
-      ticker: item.ticker,
-      title: item.title
-    })).sort((a, b) => a.ticker.localeCompare(b.ticker));
-    statusText.textContent = `Loaded ${companies.length.toLocaleString()} SEC companies.`;
-    renderResults(companies.slice(0, 24));
-  } catch (error) {
-    statusText.textContent = "Could not load SEC companies. GitHub Pages may be blocked by SEC CORS/rate limits. Use a proxy later.";
-    console.error(error);
+  const sources = [
+    { label: "local SEC company database", url: LOCAL_TICKERS_URL },
+    { label: "SEC live company database", url: SEC_TICKERS_URL },
+    { label: "SEC company database through public proxy", url: SEC_TICKERS_PROXY_URL }
+  ];
+
+  for (const source of sources) {
+    try {
+      const data = await fetchJson(source.url);
+      companies = normalizeCompanyData(data);
+      if (!companies.length) throw new Error("No companies parsed.");
+      statusText.textContent = `Loaded ${companies.length.toLocaleString()} companies from ${source.label}.`;
+      renderResults(companies.slice(0, 24));
+      return;
+    } catch (error) {
+      console.warn(`Failed loading ${source.label}`, error);
+    }
   }
+
+  statusText.textContent = "Could not load company data. Keep data/company_tickers.json in the repo root folder structure.";
 }
 
 function renderResults(items) {
@@ -49,7 +72,7 @@ function renderResults(items) {
     <article class="result-card" data-ticker="${company.ticker}">
       <span class="ticker-pill">${company.ticker}</span>
       <h4>${company.title}</h4>
-      <p class="muted">CIK ${company.cik}</p>
+      <p class="muted">CIK ${company.cik}${company.exchange ? ` · ${company.exchange}` : ""}</p>
     </article>
   `).join("");
 
@@ -74,14 +97,34 @@ async function openCompany(company) {
   activeCompany = company;
   document.getElementById("stockTitle").textContent = company.title;
   document.getElementById("stockMeta").textContent = `${company.ticker} · CIK ${company.cik}`;
-  document.getElementById("exchangeLabel").textContent = "SEC reporting company";
-  document.getElementById("priceValue").textContent = "—";
-  document.getElementById("priceNote").textContent = "Price API not connected yet";
+  document.getElementById("exchangeLabel").textContent = company.exchange || "SEC reporting company";
+  document.getElementById("priceValue").textContent = "Loading...";
+  document.getElementById("priceNote").textContent = "Trying live price endpoint";
 
   loadLocalDealData();
   renderFinancialPlaceholders();
   showView("stockView");
-  await loadFilings(company);
+  await Promise.allSettled([loadLivePrice(company), loadFilings(company)]);
+}
+
+async function loadLivePrice(company) {
+  try {
+    const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(company.ticker)}?range=1d&interval=5m`;
+    const response = await fetch(url);
+    if (!response.ok) throw new Error("Price endpoint failed.");
+    const data = await response.json();
+    const result = data.chart?.result?.[0];
+    const price = result?.meta?.regularMarketPrice;
+    const currency = result?.meta?.currency || "USD";
+    const time = result?.meta?.regularMarketTime ? new Date(result.meta.regularMarketTime * 1000).toLocaleString() : "latest available";
+    if (!price) throw new Error("No price found.");
+    document.getElementById("priceValue").textContent = `${currency} ${Number(price).toFixed(2)}`;
+    document.getElementById("priceNote").textContent = `Yahoo Finance chart endpoint · ${time}`;
+  } catch (error) {
+    document.getElementById("priceValue").textContent = "—";
+    document.getElementById("priceNote").textContent = "Live price blocked here. Add Finnhub/Polygon backend later.";
+    console.warn(error);
+  }
 }
 
 async function loadFilings(company) {
@@ -112,8 +155,8 @@ async function loadFilings(company) {
       `;
     }).join("") || `<div class="list-item"><p>No major recent filings found.</p></div>`;
   } catch (error) {
-    filingsList.innerHTML = `<div class="list-item"><p>Could not load filings directly from SEC. Add a backend/proxy later if GitHub Pages gets blocked.</p></div>`;
-    console.error(error);
+    filingsList.innerHTML = `<div class="list-item"><p>Could not load SEC filings directly from the browser. This needs a serverless proxy later.</p></div>`;
+    console.warn(error);
   }
 }
 
