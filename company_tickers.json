@@ -1,0 +1,31 @@
+{
+  "updated_at": "seed file - run GitHub Action to refresh",
+  "source": "https://www.sec.gov/files/company_tickers.json",
+  "count": 3,
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "title": "Apple Inc.",
+      "cik_str": 320193,
+      "cik10": "0000320193",
+      "latest_form": "—",
+      "latest_filed": "—"
+    },
+    {
+      "ticker": "MSFT",
+      "title": "Microsoft Corp",
+      "cik_str": 789019,
+      "cik10": "0000789019",
+      "latest_form": "—",
+      "latest_filed": "—"
+    },
+    {
+      "ticker": "NVDA",
+      "title": "NVIDIA Corp",
+      "cik_str": 1045810,
+      "cik10": "0001045810",
+      "latest_form": "—",
+      "latest_filed": "—"
+    }
+  ]
+}
