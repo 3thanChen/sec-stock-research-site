@@ -1,0 +1,88 @@
+:root {
+  --bg: #0d1117;
+  --panel: #161b22;
+  --card: #21262d;
+  --text: #f0f6fc;
+  --muted: #8b949e;
+  --accent: #58a6ff;
+  --border: #30363d;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a { color: var(--text); text-decoration: none; }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.logo { font-weight: 800; letter-spacing: 0.3px; }
+.hero {
+  min-height: 380px;
+  background: radial-gradient(circle at top left, #1f6feb55, transparent 35%), var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+.hero section, main { max-width: 1100px; margin: 0 auto; padding: 36px 24px; }
+h1 { font-size: clamp(2.2rem, 6vw, 4.5rem); line-height: 1; margin: 40px 0 14px; }
+p { color: var(--muted); line-height: 1.6; }
+.search-box { display: flex; gap: 12px; margin-top: 26px; }
+input {
+  flex: 1;
+  padding: 15px 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  font-size: 1rem;
+}
+button, .button-row a, .links a {
+  border: 1px solid var(--border);
+  background: var(--accent);
+  color: #06111f;
+  padding: 14px 18px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.company-card, .panel, .card, .company-hero {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 22px;
+}
+.company-card:hover { border-color: var(--accent); transform: translateY(-2px); transition: 0.2s; }
+.ticker { color: var(--accent); font-weight: 800; font-size: 1.5rem; }
+.panel { margin-top: 28px; }
+.links { display: flex; flex-wrap: wrap; gap: 12px; }
+.page-header { border-bottom: 1px solid var(--border); background: var(--panel); }
+.company-hero h1 { margin-top: 0; }
+.button-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+.wide { grid-column: 1 / -1; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { border-bottom: 1px solid var(--border); padding: 12px; text-align: left; }
+th { color: var(--accent); }
+ul { color: var(--muted); line-height: 1.9; }
+@media (max-width: 700px) {
+  .search-box, .dashboard { grid-template-columns: 1fr; display: grid; }
+  .search-box button { width: 100%; }
+}

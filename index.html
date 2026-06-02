@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEC Stock Research Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <div class="logo">SEC Research Hub</div>
+      <a href="https://www.sec.gov/edgar/search/" target="_blank">Official SEC EDGAR</a>
+    </nav>
+    <section>
+      <h1>Research U.S. public companies faster.</h1>
+      <p>Track SEC filings, news, earnings schedules, and research notes for major U.S. stocks.</p>
+      <div class="search-box">
+        <input id="searchInput" placeholder="Search ticker, e.g. AAPL, NVDA, MSFT" />
+        <button onclick="searchCompany()">Search</button>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="grid" id="companyGrid"></section>
+
+    <section class="panel">
+      <h2>Official SEC Data Sources</h2>
+      <p>Use these links as the project’s backbone:</p>
+      <div class="links">
+        <a target="_blank" href="https://www.sec.gov/edgar/search/">SEC EDGAR Search</a>
+        <a target="_blank" href="https://www.sec.gov/search-filings/edgar-application-programming-interfaces">SEC EDGAR APIs</a>
+        <a target="_blank" href="https://data.sec.gov/submissions/CIK0000320193.json">Example: Apple submissions JSON</a>
+        <a target="_blank" href="https://www.sec.gov/files/company_tickers.json">Ticker to CIK JSON</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
