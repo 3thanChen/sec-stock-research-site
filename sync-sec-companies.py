@@ -1,46 +1,37 @@
 import json
 import urllib.request
-from datetime import datetime, timezone
 from pathlib import Path
+from datetime import datetime
 
 SEC_URL = "https://www.sec.gov/files/company_tickers.json"
-OUT = Path("data/company_tickers.json")
 
 req = urllib.request.Request(
     SEC_URL,
     headers={
-        "User-Agent": "sec-stock-research-site yx.ethanc@gmail.com",
-        "Accept-Encoding": "gzip, deflate",
-        "Host": "www.sec.gov",
-    },
+        "User-Agent": "SECStockResearch/1.0 your-email@example.com"
+    }
 )
 
-with urllib.request.urlopen(req, timeout=30) as response:
+with urllib.request.urlopen(req) as response:
     raw = json.loads(response.read().decode("utf-8"))
 
 companies = []
 
-for item in raw.values():
-    cik = str(item["cik_str"]).zfill(10)
+for company in raw.values():
     companies.append({
-        "ticker": item["ticker"],
-        "title": item["title"],
-        "cik_str": item["cik_str"],
-        "cik10": cik,
-        "latest_form": "—",
-        "latest_filed": "—"
+        "ticker": company["ticker"],
+        "title": company["title"],
+        "cik_str": company["cik_str"],
+        "cik10": str(company["cik_str"]).zfill(10)
     })
 
-companies.sort(key=lambda x: x["ticker"])
+output = {
+    "updated_at": datetime.utcnow().isoformat(),
+    "count": len(companies),
+    "companies": companies
+}
 
-OUT.parent.mkdir(parents=True, exist_ok=True)
+Path("data").mkdir(exist_ok=True)
 
-with OUT.open("w", encoding="utf-8") as f:
-    json.dump({
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "source": SEC_URL,
-        "count": len(companies),
-        "companies": companies
-    }, f, indent=2)
-
-print(f"Saved {len(companies)} companies to {OUT}")
+with open("data/company_tickers.json", "w") as f:
+    json.dump(output, f)
