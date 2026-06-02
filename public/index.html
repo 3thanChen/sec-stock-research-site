@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SEC Stock Research</title>
+    <meta
+      name="description"
+      content="Live U.S. stock research website with SEC filings, financials, events, insider activity, news, and evidence links."
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="/quote/NVDA:NASDAQ" aria-label="SEC Stock Research home">
+        <span class="brand-mark">SR</span>
+        <span>SEC Stock Research</span>
+      </a>
+
+      <div class="search-wrap">
+        <label class="sr-only" for="searchInput">Search SEC companies</label>
+        <input
+          id="searchInput"
+          autocomplete="off"
+          spellcheck="false"
+          placeholder="Search ticker or company"
+        />
+        <div id="searchResults" class="search-results" hidden></div>
+      </div>
+
+      <nav class="top-actions" aria-label="Primary navigation">
+        <a href="#financials">Financials</a>
+        <a href="#filings">Filings</a>
+        <a href="#ai-signal">AI Signals</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="quote-hero">
+        <div class="quote-heading">
+          <div>
+            <p id="tickerLine" class="ticker-line">NVDA:NASDAQ</p>
+            <h1 id="companyName">NVIDIA Corp</h1>
+          </div>
+          <div class="live-pill" id="livePill">
+            <span></span>
+            Live sync
+          </div>
+        </div>
+
+        <div class="quote-layout">
+          <div class="quote-main">
+            <div class="price-row">
+              <div>
+                <div id="mainPrice" class="main-price">$--</div>
+                <div id="marketNote" class="market-note">Loading quote...</div>
+              </div>
+              <div id="mainChange" class="main-change neutral">--</div>
+            </div>
+
+            <div class="chart-toolbar" aria-label="Chart range">
+              <button class="range-button active" data-range="1d">1D</button>
+              <button class="range-button" data-range="5d">5D</button>
+              <button class="range-button" data-range="1mo">1M</button>
+              <button class="range-button" data-range="6mo">6M</button>
+              <button class="range-button" data-range="1y">1Y</button>
+            </div>
+
+            <div class="chart-frame">
+              <svg id="priceChart" viewBox="0 0 900 300" role="img" aria-label="Price chart"></svg>
+            </div>
+          </div>
+
+          <aside class="side-panel" id="ai-signal">
+            <div class="section-kicker">AI signal preview</div>
+            <h2>Evidence-ranked signals</h2>
+            <p id="signalText">
+              Waiting for filings, financial trend, event, news, and price evidence.
+            </p>
+            <div class="signal-grid">
+              <div>
+                <span>Filing signal</span>
+                <strong id="filingSignal">Syncing</strong>
+              </div>
+              <div>
+                <span>Financial trend</span>
+                <strong id="trendSignal">Syncing</strong>
+              </div>
+              <div>
+                <span>Event pressure</span>
+                <strong id="eventSignal">Syncing</strong>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div id="statsGrid" class="stats-grid"></div>
+      </section>
+
+      <div class="tab-row" aria-label="Stock page sections">
+        <a href="#overview">Overview</a>
+        <a href="#financials">Financials</a>
+        <a href="#filings">Latest filings</a>
+        <a href="#events">8-K events</a>
+        <a href="#insiders">Insiders</a>
+        <a href="#news">News</a>
+        <a href="#evidence">Evidence</a>
+      </div>
+
+      <section id="overview" class="content-band">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Overview</p>
+            <h2>Market snapshot</h2>
+          </div>
+          <p id="lastUpdated" class="updated-line">Last synced: --</p>
+        </div>
+        <div class="overview-grid">
+          <div class="metric-strip" id="overviewMetrics"></div>
+          <div class="watch-card">
+            <p class="section-kicker">Release schedule</p>
+            <h3 id="scheduleTitle">Latest report window</h3>
+            <p id="scheduleText">Loading recent reporting dates from SEC filings.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="financials" class="content-band">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Financials</p>
+            <h2>Financial reports</h2>
+          </div>
+          <div class="segmented">
+            <button id="quarterlyBtn" class="active">Quarterly</button>
+            <button id="annualBtn">Annual</button>
+          </div>
+        </div>
+        <div class="table-scroll">
+          <table id="financialTable">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="filings" class="content-band">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">SEC filings</p>
+            <h2>Latest filings</h2>
+          </div>
+          <a id="secCompanyLink" class="text-link" target="_blank" rel="noreferrer">Open SEC page</a>
+        </div>
+        <div id="filingsList" class="item-list"></div>
+      </section>
+
+      <section id="events" class="content-band">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">8-K updates</p>
+            <h2>Event reports</h2>
+          </div>
+        </div>
+        <div id="eventsList" class="item-list compact"></div>
+      </section>
+
+      <section id="insiders" class="content-band">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Insider activity</p>
+            <h2>Form 4 filings</h2>
+          </div>
+        </div>
+        <div id="insiderList" class="item-list compact"></div>
+      </section>
+
+      <section id="news" class="content-band">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Market news</p>
+            <h2>Latest headlines</h2>
+          </div>
+        </div>
+        <div id="newsList" class="news-grid"></div>
+      </section>
+
+      <section id="evidence" class="content-band">
+        <div class="section-head">
+          <div>
+            <p class="section-kicker">Evidence</p>
+            <h2>Source links</h2>
+          </div>
+        </div>
+        <div id="evidenceList" class="evidence-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      SEC data is sourced from EDGAR. Market and news feeds may be delayed by their providers.
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
